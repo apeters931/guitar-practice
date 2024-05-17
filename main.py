@@ -1,15 +1,21 @@
-import guitar_note_quiz as guitar
-import music_theory_quiz as theory
+import guitar_fretboard_exercise as gnq
+import music_quizzes as mq
+import ear_training_main as et
 
 def main():
     flag = True
     while flag:
-        choice = input("Type 1 for Guitar Note Quiz; Type 2 for Scale & Arpeggio Quiz: ")
+        choice = input(
+            "\nType 1 for Guitar Fretboard Exercise\nType 2 for General Music Quizzes\nType 3 for Guitar Ear Training\n\n"
+        )
         if choice == "1":
-            guitar.main()
+            gnq.main()
             flag = False
         elif choice == "2":
-            theory.main()
+            mq.main()
+            flag = False
+        elif choice == "3":
+            et.main()
             flag = False
         else:
             print('Input not accepted')

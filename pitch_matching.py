@@ -27,32 +27,32 @@ def main():
     pygame.display.set_caption("Find the Note | Alec Peters")
 
     # set images
-    a_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\a_key_button_unclicked.png').convert_alpha()
-    a_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\a_key_button_clicked.png').convert_alpha()
-    bb_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\bb_key_button_unclicked.png').convert_alpha()
-    bb_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\bb_key_button_clicked.png').convert_alpha()
-    b_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\b_key_button_unclicked.png').convert_alpha()
-    b_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\b_key_button_clicked.png').convert_alpha()
-    c_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\c_key_button_unclicked.png').convert_alpha()
-    c_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\c_key_button_clicked.png').convert_alpha()
-    db_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\db_key_button_unclicked.png').convert_alpha()
-    db_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\db_key_button_clicked.png').convert_alpha()
-    d_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\d_key_button_unclicked.png').convert_alpha()
-    d_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\d_key_button_clicked.png').convert_alpha()
-    eb_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\eb_key_button_unclicked.png').convert_alpha()
-    eb_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\eb_key_button_clicked.png').convert_alpha()
-    e_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\e_key_button_unclicked.png').convert_alpha()
-    e_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\e_key_button_clicked.png').convert_alpha()
-    f_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\f_key_button_unclicked.png').convert_alpha()
-    f_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\f_key_button_clicked.png').convert_alpha()
-    fsharp_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\fsharp_key_button_unclicked.png').convert_alpha()
-    fsharp_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\fsharp_key_button_clicked.png').convert_alpha()
-    g_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\g_key_button_unclicked.png').convert_alpha()
-    g_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\g_key_button_clicked.png').convert_alpha()
-    ab_key_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\ab_key_button_unclicked.png').convert_alpha()
-    ab_key_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\ab_key_button_clicked.png').convert_alpha()
-    play_button_image = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\play_button.png')
-    guitar_neck_image = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\vertical_guitar_neck_nb.png')
+    a_key_button_unclicked_img = pygame.image.load(r'images\a_key_button_unclicked.png').convert_alpha()
+    a_key_button_clicked_img = pygame.image.load(r'images\a_key_button_clicked.png').convert_alpha()
+    bb_key_button_unclicked_img = pygame.image.load(r'images\bb_key_button_unclicked.png').convert_alpha()
+    bb_key_button_clicked_img = pygame.image.load(r'images\bb_key_button_clicked.png').convert_alpha()
+    b_key_button_unclicked_img = pygame.image.load(r'images\b_key_button_unclicked.png').convert_alpha()
+    b_key_button_clicked_img = pygame.image.load(r'images\b_key_button_clicked.png').convert_alpha()
+    c_key_button_unclicked_img = pygame.image.load(r'images\c_key_button_unclicked.png').convert_alpha()
+    c_key_button_clicked_img = pygame.image.load(r'images\c_key_button_clicked.png').convert_alpha()
+    db_key_button_unclicked_img = pygame.image.load(r'images\db_key_button_unclicked.png').convert_alpha()
+    db_key_button_clicked_img = pygame.image.load(r'images\db_key_button_clicked.png').convert_alpha()
+    d_key_button_unclicked_img = pygame.image.load(r'images\d_key_button_unclicked.png').convert_alpha()
+    d_key_button_clicked_img = pygame.image.load(r'images\d_key_button_clicked.png').convert_alpha()
+    eb_key_button_unclicked_img = pygame.image.load(r'images\eb_key_button_unclicked.png').convert_alpha()
+    eb_key_button_clicked_img = pygame.image.load(r'images\eb_key_button_clicked.png').convert_alpha()
+    e_key_button_unclicked_img = pygame.image.load(r'images\e_key_button_unclicked.png').convert_alpha()
+    e_key_button_clicked_img = pygame.image.load(r'images\e_key_button_clicked.png').convert_alpha()
+    f_key_button_unclicked_img = pygame.image.load(r'images\f_key_button_unclicked.png').convert_alpha()
+    f_key_button_clicked_img = pygame.image.load(r'images\f_key_button_clicked.png').convert_alpha()
+    fsharp_key_button_unclicked_img = pygame.image.load(r'images\fsharp_key_button_unclicked.png').convert_alpha()
+    fsharp_key_button_clicked_img = pygame.image.load(r'images\fsharp_key_button_clicked.png').convert_alpha()
+    g_key_button_unclicked_img = pygame.image.load(r'images\g_key_button_unclicked.png').convert_alpha()
+    g_key_button_clicked_img = pygame.image.load(r'images\g_key_button_clicked.png').convert_alpha()
+    ab_key_button_unclicked_img = pygame.image.load(r'images\ab_key_button_unclicked.png').convert_alpha()
+    ab_key_button_clicked_img = pygame.image.load(r'images\ab_key_button_clicked.png').convert_alpha()
+    play_button_image = pygame.image.load(r'images\play_button.png')
+    guitar_neck_image = pygame.image.load(r'images\vertical_guitar_neck_nb.png')
     
 
     # create buttons
@@ -115,12 +115,12 @@ def main():
         question = ear_training.pick_notes(user_input)
         #play_note = 'placeholder'
         play_note = pygame.mixer.Sound(ear_training.get_mp3_file(question[1]))
-        #play_note = pygame.mixer.Sound(r'C:\Users\AlecPeters\guitar-practice\mp3\f1.mp3')
+        #play_note = pygame.mixer.Sound(r'mp3\f1.mp3')
 
         # variables that need to be declared in recurring
         correct_answer_message = small_font.render(question[0], True, black)
         correct_answer_message_rect = correct_answer_message.get_rect(center=(460,250))
-        guitar_neck_image = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\vertical_guitar_neck_nb.png')
+        guitar_neck_image = pygame.image.load(r'images\vertical_guitar_neck_nb.png')
 
         # split sharps and flats 
         if len(question[0]) == 5:
@@ -181,7 +181,6 @@ def main():
                         sys.exit()
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if play_button.checkForInput(pygame.mouse.get_pos()):
-                            print(play_note)
                             play_note.play()
                     elif event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_RETURN:
@@ -211,7 +210,6 @@ def main():
                 elif event.key == pygame.K_RETURN:
                     input_list = note_input_list
                     recurring(input_list)
-                    print(input_list)
                     
         # fill in screen backgroun
         screen.fill(light_blue)
@@ -284,4 +282,4 @@ def main():
 
         pygame.display.update()
 
-main()
+#main()

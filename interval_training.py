@@ -39,37 +39,37 @@ def main():
     pygame.display.set_caption("Find the Note | Alec Peters")
 
     # set images
-    second_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\2nd_button_unclicked.png').convert_alpha()
-    second_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\2nd_button_clicked.png').convert_alpha()
-    minor_third_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\minor_3rd_button_unclicked.png').convert_alpha()
-    minor_third_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\minor_3rd_button_clicked.png').convert_alpha()
-    major_third_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\major_3rd_button_unclicked.png').convert_alpha()
-    major_third_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\major_3rd_button_clicked.png').convert_alpha()
-    fourth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\4th_button_unclicked.png').convert_alpha()
-    fourth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\4th_button_clicked.png').convert_alpha()
-    flat_fifth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\flat_5th_button_unclicked.png').convert_alpha()
-    flat_fifth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\flat_5th_button_clicked.png').convert_alpha()
-    fifth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\5th_button_unclicked.png').convert_alpha()
-    fifth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\5th_button_clicked.png').convert_alpha()
-    sharp_fifth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\sharp_5th_button_unclicked.png').convert_alpha()
-    sharp_fifth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\sharp_5th_button_clicked.png').convert_alpha()
-    sixth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\6th_button_unclicked.png').convert_alpha()
-    sixth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\6th_button_clicked.png').convert_alpha()
-    minor_seventh_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\minor_7th_button_unclicked.png').convert_alpha()
-    minor_seventh_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\minor_7th_button_clicked.png').convert_alpha()
-    major_seventh_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\major_7th_button_unclicked.png').convert_alpha()
-    major_seventh_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\major_7th_button_clicked.png').convert_alpha()
-    octive_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\octive_button_unclicked.png').convert_alpha()
-    octive_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\octive_button_clicked.png').convert_alpha()
-    ninth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\9th_button_unclicked.png').convert_alpha()
-    ninth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\9th_button_clicked.png').convert_alpha()
-    sharp_ninth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\sharp_9th_button_unclicked.png').convert_alpha()
-    sharp_ninth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\sharp_9th_button_clicked.png').convert_alpha()
-    eleventh_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\11th_button_unclicked.png').convert_alpha()
-    eleventh_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\11th_button_clicked.png').convert_alpha()
-    thirteenth_button_unclicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\13th_button_unclicked.png').convert_alpha()
-    thirteenth_button_clicked_img = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\13th_button_clicked.png').convert_alpha()
-    play_button_image = pygame.image.load(r'C:\Users\AlecPeters\guitar-practice\images\play_button.png')
+    second_button_unclicked_img = pygame.image.load(r'images\2nd_button_unclicked.png').convert_alpha()
+    second_button_clicked_img = pygame.image.load(r'images\2nd_button_clicked.png').convert_alpha()
+    minor_third_button_unclicked_img = pygame.image.load(r'images\minor_3rd_button_unclicked.png').convert_alpha()
+    minor_third_button_clicked_img = pygame.image.load(r'images\minor_3rd_button_clicked.png').convert_alpha()
+    major_third_button_unclicked_img = pygame.image.load(r'images\major_3rd_button_unclicked.png').convert_alpha()
+    major_third_button_clicked_img = pygame.image.load(r'images\major_3rd_button_clicked.png').convert_alpha()
+    fourth_button_unclicked_img = pygame.image.load(r'images\4th_button_unclicked.png').convert_alpha()
+    fourth_button_clicked_img = pygame.image.load(r'images\4th_button_clicked.png').convert_alpha()
+    flat_fifth_button_unclicked_img = pygame.image.load(r'images\flat_5th_button_unclicked.png').convert_alpha()
+    flat_fifth_button_clicked_img = pygame.image.load(r'images\flat_5th_button_clicked.png').convert_alpha()
+    fifth_button_unclicked_img = pygame.image.load(r'images\5th_button_unclicked.png').convert_alpha()
+    fifth_button_clicked_img = pygame.image.load(r'images\5th_button_clicked.png').convert_alpha()
+    sharp_fifth_button_unclicked_img = pygame.image.load(r'images\sharp_5th_button_unclicked.png').convert_alpha()
+    sharp_fifth_button_clicked_img = pygame.image.load(r'images\sharp_5th_button_clicked.png').convert_alpha()
+    sixth_button_unclicked_img = pygame.image.load(r'images\6th_button_unclicked.png').convert_alpha()
+    sixth_button_clicked_img = pygame.image.load(r'images\6th_button_clicked.png').convert_alpha()
+    minor_seventh_button_unclicked_img = pygame.image.load(r'images\minor_7th_button_unclicked.png').convert_alpha()
+    minor_seventh_button_clicked_img = pygame.image.load(r'images\minor_7th_button_clicked.png').convert_alpha()
+    major_seventh_button_unclicked_img = pygame.image.load(r'images\major_7th_button_unclicked.png').convert_alpha()
+    major_seventh_button_clicked_img = pygame.image.load(r'images\major_7th_button_clicked.png').convert_alpha()
+    octive_button_unclicked_img = pygame.image.load(r'images\octive_button_unclicked.png').convert_alpha()
+    octive_button_clicked_img = pygame.image.load(r'images\octive_button_clicked.png').convert_alpha()
+    ninth_button_unclicked_img = pygame.image.load(r'images\9th_button_unclicked.png').convert_alpha()
+    ninth_button_clicked_img = pygame.image.load(r'images\9th_button_clicked.png').convert_alpha()
+    sharp_ninth_button_unclicked_img = pygame.image.load(r'images\sharp_9th_button_unclicked.png').convert_alpha()
+    sharp_ninth_button_clicked_img = pygame.image.load(r'images\sharp_9th_button_clicked.png').convert_alpha()
+    eleventh_button_unclicked_img = pygame.image.load(r'images\11th_button_unclicked.png').convert_alpha()
+    eleventh_button_clicked_img = pygame.image.load(r'images\11th_button_clicked.png').convert_alpha()
+    thirteenth_button_unclicked_img = pygame.image.load(r'images\13th_button_unclicked.png').convert_alpha()
+    thirteenth_button_clicked_img = pygame.image.load(r'images\13th_button_clicked.png').convert_alpha()
+    play_button_image = pygame.image.load(r'images\play_button.png')
 
     # create buttons
     top_y = 200
@@ -154,20 +154,12 @@ def main():
         while interval_flag:
             note = ear_training.random_note()
             question = ear_training.pick_notes([note.lower()])
-            print(question)
             interval = random_interval(interval_input_list)
             if question[interval[1]] != '0':
                 interval_flag = False
         
-        print(interval[0])
-        #root_note = 'placeholder1'
         root_note = pygame.mixer.Sound(ear_training.get_mp3_file(question[1]))
-        #root_note = pygame.mixer.Sound(r'C:\Users\AlecPeters\guitar-practice\mp3\f1.mp3')
-        #interval_note = 'placeholder2'
         interval_note = pygame.mixer.Sound(ear_training.get_mp3_file(question[interval[1]]))
-        #interval_note = pygame.mixer.Sound(r'C:\Users\AlecPeters\guitar-practice\mp3\f#-gb1.mp3')
-        #notes_together = 'placeholder3'
-        #notes_together = pygame.mixer.Sound(ear_training.get_mp3_file(question[interval[1],question[1]]))
 
         # variables that need to be declared in recurring
         correct_answer_message = small_font.render(question[0], True, black)
@@ -217,17 +209,12 @@ def main():
                             recurring(input_list,games_played,questions_right)
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if play_button_1.checkForInput(pygame.mouse.get_pos()):
-                            #print(root_note)
                             root_note.play()
                         elif play_button_2.checkForInput(pygame.mouse.get_pos()):
-                            #print(interval_note)
                             interval_note.play()
                         elif play_button_3.checkForInput(pygame.mouse.get_pos()):
-                            #print(notes_together)
                             root_note.play()
                             interval_note.play()
-                            #print(root_note)
-                            #notes_together.play()
                 
                 if answer.lower() == interval[0]:
                     questions_right = general.counter(nright)
@@ -273,17 +260,11 @@ def main():
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if play_button_1.checkForInput(pygame.mouse.get_pos()):
                             root_note.play()
-                            #print(root_note)
-                            #root_note.play()
                         elif play_button_2.checkForInput(pygame.mouse.get_pos()):
                             interval_note.play()
-                            #print(interval_note)
-                            #interval_note.play()
                         elif play_button_3.checkForInput(pygame.mouse.get_pos()):
                             root_note.play()
                             interval_note.play()
-                            #print(notes_together)
-                            #notes_together.play()
                     elif (event.type == pygame_gui.UI_TEXT_ENTRY_FINISHED and
                         event.ui_object_id == '#main_text_entry'):
                         show_answer(event.text)
@@ -320,7 +301,6 @@ def main():
                 elif event.key == pygame.K_RETURN:
                     input_list = interval_input_list
                     recurring(input_list)
-                    print(input_list)
                     
         # fill in screen backgroun
         screen.fill(light_blue)
@@ -423,4 +403,4 @@ def main():
 
         pygame.display.update()
 
-main()
+#main()
