@@ -10,6 +10,7 @@
 ## Modules
 
 **guitar fretboard exercise:**
+
 this module shows an image of a guitar neck and places a red dot on a random note and you have to name the note.
 
 input variables:
