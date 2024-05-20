@@ -17,6 +17,18 @@ this module shows an image of a guitar neck and places a red dot on a random not
 - vertical: guitar neck is positioned vertically with 1st fret at top of screen and 12th fret at bottom
 - horizontal: guitar neck is positioned horizontally with 1st fret on left side of screen and 12th fret on right side of screen
 
+*starting fret*
+
+minimum fret you want to be quized on. if you want to be quizzed on the full fretboard choose 0.
+
+*ending fret*
+
+maximun fret you want to be quized on. if you want to be quizzed on the full fretboard choose 12.
+
+*key*
+
+key you want to be quizzed on. this will limit the notes you will be quized on to note in this key's diatonic scale. If you don't want to play within a certain key you can leave it blank.
+
 ## General Music Quizzes:
 
 ## Guitar Ear Training:
