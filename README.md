@@ -11,7 +11,7 @@
 
 this module shows an image of a guitar neck and places a red dot on a random note and you have to name the note.
 
-**input variables:**
+**Input Variables:**
 
 *guitar neck view*
 - vertical: guitar neck is positioned vertically with 1st fret at top of screen and 12th fret at bottom
@@ -27,7 +27,7 @@ maximun fret you want to be quized on. if you want to be quizzed on the full fre
 
 *key*
 
-key you want to be quizzed on. this will limit the notes you will be quized on to note in this key's diatonic scale. If you don't want to play within a certain key you can leave it blank.
+key you want to be quizzed on. this will limit the notes you will be quized on to note in this key's diatonic scale. If you don't want to play within a certain key you can leave it blank (coming soon).
 
 ## General Music Quizzes:
 
