@@ -7,7 +7,7 @@ different ways to virtually practice guitar. the modules in this program will he
 1. clone repo to your home directory
 2. open terminal and navigate to the cloned directory
 3. run `py main.py`
-4. input module you would like to play and any other variables
+4. choose module you would like to play and select any other topics or input variables that are applicable
 
 # Modules
 
