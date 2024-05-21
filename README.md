@@ -1,4 +1,4 @@
-### Guitar Practice :guitar:
+# Guitar Practice :guitar:
 
 # How to Use
 
