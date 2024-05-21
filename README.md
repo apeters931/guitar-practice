@@ -1,3 +1,5 @@
+### Guitar Practice :guitar:
+
 # How to Use
 
 1. clone repo to your home directory
