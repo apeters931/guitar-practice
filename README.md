@@ -1,6 +1,6 @@
 # Guitar Practice :guitar:
 
-Different ways to virtually practice guitar. The modules in this program will help you with naviating the fretboard, understanding/memorizing important elements of music theory, and training your ear to recognize pitch and intervals
+different ways to virtually practice guitar. the modules in this program will help you with naviating the fretboard, understanding/memorizing important elements of music theory, and training your ear to recognize pitch and intervals
 
 # How to Use
 
