@@ -7,7 +7,7 @@
 
 # Modules
 
-## Guitar Fretboard Exercise:
+## Guitar Fretboard Exercise
 
 this module shows an image of a guitar neck and places a red dot on a random note and you have to name the note.
 
@@ -33,7 +33,7 @@ key you want to be quizzed on. this will limit the notes you will be quized on t
 
 strings you want to be quizzed on. if you want to be quizzed on the full fret board you need to select all of the strings.
 
-## General Music Quizzes:
+## General Music Quizzes
 
 This module offers a varriety of command line general music quizzes. All answers should be in capital letters seperated by commas (no spaces)
 
@@ -52,4 +52,9 @@ for the chords topic, there is a difficulty variable you can set
 2. medium: you will also be quizzed on sus chords and 9th chords
 3. hard: you will be quizzed on all other chords including augmented, sharp 9ths, 11ths, and 13ths 
 
-## Guitar Ear Training:
+## Guitar Ear Training
+
+*topics*
+- pitch matching: choose notes you want to be quized on, a voicing of that note will play and you need to find a note on your fret board
+- pitch training: choose notes to be quizzed on a guess which note it is
+- interval training: choose intervals to be quizzed on and guess what the the interval is. you can play the two notes together or seperately
