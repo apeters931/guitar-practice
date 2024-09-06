@@ -487,7 +487,7 @@ def main():
 
                 clock.tick(60)
 
-                pygame.display.flip()
+                pygame.display.update()
 
         def get_answer():
            
