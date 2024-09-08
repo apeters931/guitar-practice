@@ -4,7 +4,6 @@
 # add game logic that exists in the CL game
 # fix spacing in game
 
-
 ### IMPORT PACKAGES ###
 # package needed for pygame functionality
 import pygame
