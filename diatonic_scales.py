@@ -1,7 +1,6 @@
 ### TO DO ###
 # continue comments
 # figure out if there's a way to center text
-# add chords and modes
 # rename/re-org files
 # create main file
 
@@ -16,7 +15,7 @@ import pandas as pd
 import music_quizzes_main as m
 
 ### PYGAME FORMATTING VARIABLES ###
-def main(type):
+def main(type,level=0):
   # initalize game
   pygame.init()
   # screen size
@@ -67,6 +66,12 @@ def main(type):
     elif type == 'pentatonic_scale':
       key_and_answer = m.pentatonic_scale()
       question_text = "What pentatonic notes are in " + key_and_answer[0] + '?'
+    elif type == 'modes':
+      key_and_answer = m.modes()
+      question_text = "What notes are in " + key_and_answer[0] + '?'
+    elif type == 'chords':
+      key_and_answer = m.chords(level)
+      question_text = "What notes are in " + key_and_answer[0] + '?'
 
     question = font.render(question_text, True, black, light_blue)
     question_rect = question.get_rect()
@@ -206,5 +211,7 @@ def main(type):
 
   get_answer()  
 
-main('pentatonic_scale')
+#main('pentatonic_scale')
 #main('diatonic_scale')
+#main('modes')
+main('chords',1)
