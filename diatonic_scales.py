@@ -1,7 +1,9 @@
 ### TO DO ###
 # continue comments
-# add game logic that exists in the CL game
-# fix spacing in game
+# figure out if there's a way to center text
+# add chords and modes
+# rename/re-org files
+# create main file
 
 ### IMPORT PACKAGES ###
 # package needed for pygame functionality
