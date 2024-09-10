@@ -10,9 +10,9 @@ import pygame
 # used for exiting the python desktop app when you click exit
 import sys
 # used for reading in excel sheet
-import pandas as pd
+# import pandas as pd
 # for reusing functions that can me shared with the other music quizzs
-import music_quizzes_main as m
+import get_data as m
 
 ### PYGAME FORMATTING VARIABLES ###
 def main(type,level=0):
@@ -46,7 +46,7 @@ def main(type,level=0):
   font = pygame.font.SysFont('freesans', 32)
   # create screen 
   screen = pygame.display.set_mode((screen_width,screen_height))
-  pygame.display.set_caption("Diatonic Scales | Alec Peters")
+  pygame.display.set_caption("Scales & Arpeggios | Alec Peters")
 
   def get_answer():
     ### INITIALIZE VARIABLES ###

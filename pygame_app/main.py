@@ -1,6 +1,6 @@
-import guitar_fretboard_exercise as gnq
+import fretboard_exercises.guitar_fretboard_exercise as gnq
 import music_quizzes as mq
-import ear_training_main as et
+import ear_training_exercises.ear_training_main as et
 
 def main():
     flag = True
