@@ -28,6 +28,7 @@ project: guitar-practice
   scales_and_arpeggios:
     game_logic:
     get_data:
+    chords_main:
     main:
 
   main:

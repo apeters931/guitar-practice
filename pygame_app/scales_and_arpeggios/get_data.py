@@ -3,7 +3,7 @@ import random
 
 ### READS SPREADSHEET ###
 def read_data(tab_name):
-  data = pd.read_excel("data/music_spreadsheet.xlsx", sheet_name=tab_name)
+  data = pd.read_excel("pygame_app/data/music_spreadsheet.xlsx", sheet_name=tab_name)
   return data
 ### RETURNS KEY AND DIATONIC SCALE ###
 def diatonic_scale():

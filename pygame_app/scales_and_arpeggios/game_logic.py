@@ -29,19 +29,19 @@ def main(type,level=0):
   light_blue = (202, 228, 241)
   red = (255,0,0)
   # text cordinates
-  question_x = 390
-  question_y = 200
-  answer_x = 300
-  answer_x_increment = 14
-  old_answer_x = 400
-  answer_y = 300
-  old_answer_y = 300
-  correct_message_x = 400
-  correct_message_y = 350
-  incorrect_message_x1 = 400
-  incorrect_message_y1 = 350
-  incorrect_message_x2 = 410
-  incorrect_message_y2 = 425
+  question_x = screen_width/2
+  question_y = screen_height/2 - 75
+  answer_x = screen_width/2
+  answer_x_increment = 15
+  old_answer_x = screen_width/2 
+  answer_y = screen_height/2
+  old_answer_y = screen_height/2
+  correct_message_x = screen_width/2
+  correct_message_y = screen_height/2 + 50
+  incorrect_message_x1 = screen_width/2
+  incorrect_message_y1 = screen_height/2 + 50
+  incorrect_message_x2 = screen_width/2
+  incorrect_message_y2 = screen_height/2 + 100
   # fonts
   font = pygame.font.SysFont('freesans', 32)
   # create screen 
@@ -214,4 +214,4 @@ def main(type,level=0):
 #main('pentatonic_scale')
 #main('diatonic_scale')
 #main('modes')
-main('chords',1)
+#main('chords',1)
