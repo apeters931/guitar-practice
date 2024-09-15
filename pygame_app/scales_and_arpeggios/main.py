@@ -81,7 +81,7 @@ def main():
 
     if diatonic_scales_button_unclicked.draw(screen):
       diatonic_button = diatonic_scales_button_clicked
-      game_logic.main('pentatonic_scale')
+      game_logic.main('diatonic_scale')
     else:
       diatonic_button.draw(screen)
     if pentatonic_scales_button_unclicked.draw(screen):
@@ -101,3 +101,5 @@ def main():
       modes_button.draw(screen)
     
     pygame.display.update()
+
+main()
