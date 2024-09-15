@@ -1,8 +1,8 @@
 import pygame
 import pygame_gui
-import general
+import general_package.general as general
 import sys
-import ear_training
+import ear_training_exercises.ear_training as ear_training
 import random
 
 def random_interval(interval_list):

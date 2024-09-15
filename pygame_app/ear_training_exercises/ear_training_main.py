@@ -1,6 +1,6 @@
-import interval_training as it
-import pitch_matching as pm
-import pitch_training as pt
+import ear_training_exercises.interval_training as it
+import ear_training_exercises.pitch_matching as pm
+import ear_training_exercises.pitch_training as pt
 
 def main():
     flag = True

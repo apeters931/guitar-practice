@@ -1,15 +1,8 @@
-
-"""
-Created on Sun Aug  6 12:13:49 2023
-
-@author: AlecPeters
-"""
-
 import random
 import pygame
 import pygame_gui
 import sys
-import general
+import general_package.general as general
 import pandas as pd
 
 def random_key():
