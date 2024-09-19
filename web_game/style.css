@@ -2,5 +2,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    background-color: rgb(23, 23, 23);
+    background-color: #2c3135;
+    padding-top: 100px;
 }
+
+.main-footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: small;
+}
+
+.nav a:hover {
+    background-color: #47ca7c;
+    color: #2c3135; 
+}
+
+button {
+    font-size:15px; 
+    width: 225px;
+    background-color:#2c3135; 
+    color:white; 
+    padding:15px;
+    margin: 30px;
+    border-radius:35px;
+    border:2px solid #47ca7c;
+}
+
+a {
+    color: #47ca7c;
+}
+
