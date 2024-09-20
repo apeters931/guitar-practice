@@ -1,3 +1,14 @@
 body {
     background-color:lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+
+h1 {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+  }
