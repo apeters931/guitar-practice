@@ -1,15 +1,16 @@
 // to do:
-// keep score (this should happen after we figure out how to make it repeat becuase they will relate to each other)
-//  - question number
-//  - number correct
-//  - percent correct
-//  - average answer time
-//  - score based on time, correctness, and points multiplier
+// can only submit answer once -- right now you can click submit multiple times and it keeps counting the answer for that question
+// round percentage
+// average answer time
+// score based on time, correctness, and points multiplier
 // add it so syntax is less important in answer (how to input will be explained in the instructions section though but i'm not adding instructions till all other modules are done)
 
+// for developing
+// python3 -m http.server
 // http://localhost:8000/guitar-practice/web_game/games/music_theory_games/chords.html
- var counter = 1;
- let correctAnswer = 0;
+
+var counter = 1;
+let correctAnswer = 0;
 
 function gameLoop() {
 
@@ -25,9 +26,9 @@ function gameLoop() {
     var flag = true;
     var clickedFlag = false;
     var correctPercent;
-    var question_str = "Number of questions: ";
-    var correct_str = "Number correct: ";
-    var percent_str = "Correct percentage: ";
+    var question_str = "Question: ";
+    var correct_str = "Correct: ";
+    var percent_str = "Percentage: ";
     var time_str = "Average time: ";
     var score_str = "Score: ";
 
@@ -51,6 +52,17 @@ function gameLoop() {
         correct_answer = data[randIndex].Notes;
         full_title = title + chord;
         document.getElementById("main_title").textContent = full_title;
+
+        // set scoreboard
+        question_number = question_str + counter.toString();
+        document.getElementById("question_num").textContent = question_number;
+        if (counter == 1) {
+            document.getElementById("correct_num").textContent = correct_str + "--";
+            document.getElementById("correct_perc").textContent = percent_str + "--";
+        }
+        // temp until this is calculated
+        document.getElementById("avg_time").textContent = time_str + "--";;
+        document.getElementById("scoreboard").textContent = score_str + "--";;
     })
 
     document.getElementById("my_submit").onclick = function() {
@@ -71,24 +83,20 @@ function gameLoop() {
             }
 
             if (correctAnswer > 0) {
-                correctPercent = correctAnswer/counter;
+                correctPercent = (correctAnswer/counter) * 100;
             }
 
             else {
                 correctPercent = 0;
             }
 
-            // set scoreboard
+            // update scoreboard
             question_number = question_str + counter.toString();
             correct_count = correct_str + correctAnswer.toString();
-            correct_percentage = percent_str + correctPercent.toString();
-            average_time = "Average time: 0";
-            total_score = "Score: 0";
+            correct_percentage = percent_str + correctPercent.toString() + "%";
             document.getElementById("question_num").textContent = question_number;
             document.getElementById("correct_num").textContent = correct_count;
             document.getElementById("correct_perc").textContent = correct_percentage;
-            document.getElementById("avg_time").textContent = average_time;
-            document.getElementById("scoreboard").textContent = total_score;
 
         }
 
