@@ -2,5 +2,42 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    align-items: center;
     background-color: #2c3135;
+    padding-top: 100px;
 }
+
+input {
+    font-size:15px; 
+    background-color:#2c3135;
+    color:white;
+    padding: 8px;
+    border-radius:35px;
+    border:2px solid #47ca7c;
+}
+
+button {
+    font-size:15px; 
+    background-color:#2c3135; 
+    color:white;
+    padding: 8px;
+    border-radius:35px;
+    border:2px solid #47ca7c;
+    text-decoration: none;
+}
+
+button:hover {
+    background:#47ca7c;
+    color:#2c3135
+}
+
+#scoreboard {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+#score_line_1 {
+    font-size: 15px;
+    margin: 2px;
+}
+
