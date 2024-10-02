@@ -1,6 +1,4 @@
 // to do:
-// score based on time, correctness, and points multiplier
-// - x 2 if you're answer time is less than you're median time
 // move score down so it won't move when the correct/incorrect message appears
 // add instructions window when you first open game
 // move logic to it's own function to make game flow more obvious
@@ -9,9 +7,11 @@
 // python3 -m http.server
 // http://localhost:8000/guitar-practice/web_game/games/music_theory_games/chords.html
 
+// game variables - variable that will not be cleared after each question
 var counter = 1;
 let correctAnswer = 0;
 var avgTimeList = [];
+var medianTimeList = [];
 var score = 0;
 
 function gameLoop() {
@@ -41,6 +41,7 @@ function gameLoop() {
     var timerElement;
     var countUp;
 
+    // read JSON data
     fetch("chords.json")
     .then(response => response.json())
     .then(data => {
@@ -78,7 +79,9 @@ function gameLoop() {
         if (document.getElementById("user_input").value != '') {
             pausedTime = time;
             avgTimeList.push(pausedTime);
+            medianTimeList.push(pausedTime);
             avgTime = avg_array(avgTimeList);
+            medianTime = median(medianTimeList);
             clearInterval(countUp);
             answer = document.getElementById("user_input").value;
             answerCleaned = standardize_string(answer);
@@ -91,6 +94,9 @@ function gameLoop() {
                 document.getElementById("message").textContent = correct_response;
                 correctAnswer++;
                 score = score + (100 * parseInt(difficulty));
+                if (pausedTime < medianTime) {
+                    score = score + 100;
+                }
             }
 
             else {
@@ -143,6 +149,22 @@ function avg_array(arr) {
     }
     return (sum / arr.length).toFixed(2);
 }
+
+function median(arr) {
+    // Sort the array in ascending order
+    arr.sort((a, b) => a - b);
+  
+    // Check if the array length is even or odd
+    if (arr.length % 2 === 0) {
+      // If even, return the average of the two middle elements
+      const mid1 = arr[arr.length / 2 - 1];
+      const mid2 = arr[arr.length / 2];
+      return (mid1 + mid2) / 2;
+    } else {
+      // If odd, return the middle element
+      return arr[Math.floor(arr.length / 2)];
+    }
+  }
 
 // make string lowercase and comma seperated
 function standardize_string(str){
