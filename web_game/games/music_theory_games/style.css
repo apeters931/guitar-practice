@@ -7,6 +7,34 @@ body {
     padding-top: 100px;
 }
 
+.popup {
+    width: 600px;
+    background-color: #2c3135;
+    border-radius: 6px;
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.close-popup {
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.hide-objects {
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+}
+
 input {
     font-size:15px; 
     background-color:#2c3135;
@@ -41,3 +69,6 @@ button:hover {
     margin: 2px;
 }
 
+#message {
+    color: #2c3135;
+}

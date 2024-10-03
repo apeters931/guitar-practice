@@ -1,7 +1,7 @@
 // to do:
-// score is wrong after first question
-// move score down so it won't move when the correct/incorrect message appears
-// add instructions window when you first open game
+// score variable going up if you hit the submit button
+// add timed version
+// add set number of questions version
 
 // for developing:
 // python3 -m http.server
@@ -23,7 +23,7 @@ function gameLoop() {
     var answerCleaned;
     var correct_answer;
     var correctAnswerCleaned;
-    var title = "Name the notes in ";
+    var title = "What notes are in ";
     var full_title;
     var correct_response = "Correct!";
     var incorrect_str = "Incorrect: ";
@@ -71,7 +71,7 @@ function gameLoop() {
         },1000);
 
         // set scoreboard
-        generate_score(counter);
+        generate_score(counter,correctAnswer,correctPercent,avgTime,score);
         
     })
 
@@ -103,6 +103,7 @@ function gameLoop() {
             if (answerCleaned == correctAnswerCleaned) {
                 // add correct message to screen
                 document.getElementById("message").textContent = correct_response;
+                document.getElementById("message").style.color = "white";
                 // adds one to the correct answer variable
                 correctAnswer++;
                 // adds 100 x the difficulty multiplier to the score variable
@@ -117,6 +118,7 @@ function gameLoop() {
             else {
                 // adds incorrect message to screen
                 document.getElementById("message").textContent = incorrect_response;
+                document.getElementById("message").style.color = "white";
                 // subtracts 100 from score
                 score = score - 100;
             }
@@ -125,7 +127,7 @@ function gameLoop() {
             correctPercent = correct_percent(correctAnswer,counter);
 
             // update scoreboard
-            generate_score(counter,correctAnswer,correctPercent,avgTime,score)
+            generate_score(counter,correctAnswer,correctPercent,avgTime,score);
 
         }
 
@@ -139,7 +141,8 @@ function gameLoop() {
             time = 0;
             clickedFlag = false;
             document.getElementById('user_input').value = '';
-            document.getElementById('message').textContent = '';
+            document.getElementById("message").style.color = "#2c3135";
+            document.getElementById('message').textContent = 'placeholder';
             // add one to the counter
             counter++;
             // start from beging of game loop
@@ -150,7 +153,7 @@ function gameLoop() {
 }
 
 // create scoreboard
-function generate_score(count,countCorrect=0,perecent=0,average=0,score=0){
+function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0){
     // labels for scores
     var question_str = "Question: ";
     var correct_str = "Correct: ";
@@ -169,7 +172,7 @@ function generate_score(count,countCorrect=0,perecent=0,average=0,score=0){
         correct_count = correct_str + correctAnswer.toString();
         correct_percentage = percent_str + correctPercent.toString() + "%";
         average_time_string = time_str + avgTime + "s";
-        total_score = score_str + score.toString();
+        total_score = score_str + totalScore.toString();
         document.getElementById("scoreboard").textContent = total_score;
         document.getElementById("score_line_1").textContent = question_number + ", " + correct_count + ", " + correct_percentage + ", " + average_time_string;
     }
@@ -224,6 +227,33 @@ function format_answer(str){
     return answer
 }
 
-if (counter == 1) {
-    gameLoop();
+function closePopup() {
+    var popup = document.getElementById("popup");
+    popup.classList.add("close-popup");
 }
+
+function hideObjects() {
+    var user_input = document.getElementById("user_input");
+    var my_submit = document.getElementById("my_submit");
+    var timer = document.getElementById("timer");
+    user_input .classList.add("hide-objects");
+    my_submit.classList.add("hide-objects");
+    timer.classList.add("hide-objects");
+}
+
+function unhideObjects() {
+    var user_input = document.getElementById("user_input");
+    var my_submit = document.getElementById("my_submit");
+    var timer = document.getElementById("timer");
+    user_input .classList.remove("hide-objects");
+    my_submit.classList.remove("hide-objects");
+    timer.classList.remove("hide-objects");
+}
+
+document.getElementById("play").onclick = function() {
+    unhideObjects()
+    gameLoop();
+    closePopup();
+}
+
+hideObjects();
