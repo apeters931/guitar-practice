@@ -21,6 +21,11 @@ body {
     transition: transform 0.4s, top 0.4s;
 }
 
+.instruction-text {
+    text-align: left;
+    margin: 4px;
+}
+
 .close-popup {
     visibility: hidden;
     top: 0;

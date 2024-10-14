@@ -11,18 +11,34 @@
     <body>
         <div id="popup" class="popup">
             <h2> Instructions </h2>
-            <p> You will be prompted to name the notes in a given chord. Submit you answers either seperated by commas or spaces (not both). It is not case sensitive. 
+            <p class="instruction-text"> 
+                You will be prompted to name the notes in a given chord. Submit you answers either seperated by commas or spaces (not both). It is not case sensitive. 
                 Chords are catagorized into three different levels: easy, medium, and hard. You will have 70% chance of getting and easy chord, a 20% chance for a medium chord, 
                 and a 10% for a hard chord any given question. If you answer a question right you will get 100 points added to your score. If you get it wrong 100 points will be subtracted. 
                 For correct answers there are also multipliers that can give you more points. Medium level chords are worth 200 points and hard level are worth 300. The game also keeps 
                 track of the time it takes you to answer each question and if you get a question right and your answer time was less than your median answer time you get an additional 
-                100 points.</p>
-            <button id="play">Play</button>
+                100 points.
+            </p> <br>
+            <p class="instruction-text"> There are three different game options below  </p>
+            <p class="instruction-text"> 1. Infinite mode you can play as long as you'd like </p>
+            <p class="instruction-text"> 2. Timed mode you will have 100 seconds to answer as many as you can </p>
+            <p class="instruction-text"> 3. Test mode you will get 20 questions, though answering quickly is still important to your score </p> <br>
+            <p class="instruction-text"> The game will beign as soon as you select one of the below options </p> <br>
+            
+            <button id="play-infinite">Play Infinite Mode</button>
+            <button id="play-timed">Play Timed Mode</button>
+            <button id="play-test">Play Test Mode</button>
+        </div>
+        <div id="game-over-popup" class="close-popup">
+            <h1>Game Over</h1>
+            <h3 id="final-score"></h3>
+            <p id="final-score-details"></p>
+            <button id="play-again">Play Again</button>
         </div>
         <h1 id="main_title"></h1>
-        <input id="user_input" placeholder="Enter Notes">
+        <input id="user_input" placeholder="Enter Notes" autocomplete="off">
         <button id="my_submit">Submit</button>
-        <p id="timer">0</p>
+        <p id="timer"></p>
         <h3 id="message">placeholder</h3>
         <br><br>
         <p id="scoreboard"></p>

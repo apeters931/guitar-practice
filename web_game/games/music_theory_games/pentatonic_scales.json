@@ -1,0 +1,122 @@
+[
+    {
+        "NOTE": "A",
+        "TYPE": "Major",
+        "SCALE": "A,B,C#,E,F#"
+    },
+    {
+        "NOTE": "A#/Bb",
+        "TYPE": "Major",
+        "SCALE": "Bb,C,D,F,G"
+    },
+    {
+        "NOTE": "B",
+        "TYPE": "Major",
+        "SCALE": "B,C#,D#,F#,G#"
+    },
+    {
+        "NOTE": "C",
+        "TYPE": "Major",
+        "SCALE": "C,D,E,G,A"
+    },
+    {
+        "NOTE": "C#/Db",
+        "TYPE": "Major",
+        "SCALE": "Db,Eb,F,Ab,Bb"
+    },
+    {
+        "NOTE": "D",
+        "TYPE": "Major",
+        "SCALE": "D,E,F#,A,B"
+    },
+    {
+        "NOTE": "D#/Eb",
+        "TYPE": "Major",
+        "SCALE": "Eb,F,G,Bb,C"
+    },
+    {
+        "NOTE": "E",
+        "TYPE": "Major",
+        "SCALE": "E,F#,G#,B,C#"
+    },
+    {
+        "NOTE": "F",
+        "TYPE": "Major",
+        "SCALE": "F,G,A,C,D"
+    },
+    {
+        "NOTE": "F#/Gb",
+        "TYPE": "Major",
+        "SCALE": "F#,G#,A#,C#,D#"
+    },
+    {
+        "NOTE": "G",
+        "TYPE": "Major",
+        "SCALE": "G,A,B,D,E"
+    },
+    {
+        "NOTE": "G#/Ab",
+        "TYPE": "Major",
+        "SCALE": "Ab,Bb,C,Eb,F"
+    },
+    {
+        "NOTE": "A",
+        "TYPE": "Minor",
+        "SCALE": "A,C,D,E,G"
+    },
+    {
+        "NOTE": "A#/Bb",
+        "TYPE": "Minor",
+        "SCALE": "Bb,Db,Eb,F,Ab"
+    },
+    {
+        "NOTE": "B",
+        "TYPE": "Minor",
+        "SCALE": "B,D,E,F#,A"
+    },
+    {
+        "NOTE": "C",
+        "TYPE": "Minor",
+        "SCALE": "C,Eb,F,G,Bb"
+    },
+    {
+        "NOTE": "C#/Db",
+        "TYPE": "Minor",
+        "SCALE": "C#,E,F#,G#,B"
+    },
+    {
+        "NOTE": "D",
+        "TYPE": "Minor",
+        "SCALE": "D,F,G,A,C"
+    },
+    {
+        "NOTE": "D#/Eb",
+        "TYPE": "Minor",
+        "SCALE": "Eb,Gb,Ab,Bb,C#"
+    },
+    {
+        "NOTE": "E",
+        "TYPE": "Minor",
+        "SCALE": "E,G,A,B,D"
+    },
+    {
+        "NOTE": "F",
+        "TYPE": "Minor",
+        "SCALE": "F,Ab,Bb,C,Eb"
+    },
+    {
+        "NOTE": "F#/Gb",
+        "TYPE": "Minor",
+        "SCALE": "F#,A,B,C#,E"
+    },
+    {
+        "NOTE": "G",
+        "TYPE": "Minor",
+        "SCALE": "G,Bb,C,D,F"
+    },
+    {
+        "NOTE": "G#/Ab",
+        "TYPE": "Minor",
+        "SCALE": "G#,B,C#,D#,F#"
+    }
+]

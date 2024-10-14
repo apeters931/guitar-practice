@@ -1,0 +1,422 @@
+[
+    {
+        "ROOT": "A",
+        "MODE": "Ionian",
+        "NOTES": "A,B,C#,D,E,F#,G#"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Dorian",
+        "NOTES": "A,B,C,D,E,F#,G"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Phrygian",
+        "NOTES": "A,Bb,C,D,E,F,G"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Lydian",
+        "NOTES": "A,B,C#,D#,E,F#,G#"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Mixolydian",
+        "NOTES": "A,B,C#,D,E,F#,G"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Aeolian",
+        "NOTES": "A,B,C,D,E,F,G"
+    },
+    {
+        "ROOT": "A",
+        "MODE": "Locrian",
+        "NOTES": "A,Bb,C,D,Eb,F,G"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Ionian",
+        "NOTES": "Bb,C,D,Eb,F,G,A"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Dorian",
+        "NOTES": "Bb,C,Db,Eb,F,G,Ab"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Phrygian",
+        "NOTES": "A#,B,C#,D#,F,F#,G#"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Lydian",
+        "NOTES": "Bb,C,D,E,F,G,A"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Mixolydian",
+        "NOTES": "Bb,C,D,Eb,F,G,Ab"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Aeolian",
+        "NOTES": "Bb,C,Db,Eb,F,Gb,Ab"
+    },
+    {
+        "ROOT": "A#/Bb",
+        "MODE": "Locrian",
+        "NOTES": "A#,B,C#,D#,E,F#,G#"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Ionian",
+        "NOTES": "B,C#,D#,E,F#,G#,A#"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Dorian",
+        "NOTES": "B,C#,D,E,F#,G#,A"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Phrygian",
+        "NOTES": "B,C,D,E,F#,G,A"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Lydian",
+        "NOTES": "B,Db,Eb,F,Gb,Ab,Bb"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Mixolydian",
+        "NOTES": "B,C#,D#,E,F#,G#,A"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Aeolian",
+        "NOTES": "B,C#,D,E,F#,G,A"
+    },
+    {
+        "ROOT": "B",
+        "MODE": "Locrian",
+        "NOTES": "B,C,D,E,F,G,A"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Ionian",
+        "NOTES": "C,D,E,F,G,A,B"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Dorian",
+        "NOTES": "C,D,Eb,F,G,A,Bb"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Phrygian",
+        "NOTES": "C,Db,Eb,F,G,Ab,Bb"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Lydian",
+        "NOTES": "C,D,E,F#,G,A,B"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Mixolydian",
+        "NOTES": "C,D,E,F,G,A,Bb"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Aeolian",
+        "NOTES": "C,D,Eb,F,G,Ab,Bb"
+    },
+    {
+        "ROOT": "C",
+        "MODE": "Locrian",
+        "NOTES": "C,Db,Eb,F,Gb,Ab,Bb"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Ionian",
+        "NOTES": "Db,Eb,F,Gb,Ab,Bb,C"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Dorian",
+        "NOTES": "C#,D#,E,F#,G#,A#,B"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Phrygian",
+        "NOTES": "C#,D,E,F#,G#,A,B"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Lydian",
+        "NOTES": "Db,Eb,F,G,Ab,Bb,C"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Mixolydian",
+        "NOTES": "C#,D#,F,F#,G#,A#,B"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Aeolian",
+        "NOTES": "C#,D#,E,F#,G#,A,B"
+    },
+    {
+        "ROOT": "C#/Db",
+        "MODE": "Locrian",
+        "NOTES": "C#,D,E,F#,G,A,B"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Ionian",
+        "NOTES": "D,E,F#,G,A,B,C#"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Dorian",
+        "NOTES": "D,E,F,G,A,B,C"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Phrygian",
+        "NOTES": "D,Eb,F,G,A,Bb,C"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Lydian",
+        "NOTES": "D,E,F#,G#,A,B,C#"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Mixolydian",
+        "NOTES": "D,E,F#,G,A,B,C"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Aeolian",
+        "NOTES": "D,E,F,G,A,Bb,C"
+    },
+    {
+        "ROOT": "D",
+        "MODE": "Locrian",
+        "NOTES": "D,Eb,F,G,Ab,Bb,C"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Ionian",
+        "NOTES": "Eb,F,G,Ab,Bb,C,D"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Dorian",
+        "NOTES": "Eb,F,Gb,Ab,Bb,C,Db"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Phrygian",
+        "NOTES": "D#,E,F#,G#,A#,B,C#"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Lydian",
+        "NOTES": "Eb,F,G,A,Bb,C,D"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Mixolydian",
+        "NOTES": "Eb,F,G,Ab,Bb,C,Db"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Aeolian",
+        "NOTES": "D#,F,F#,G#,A#,B,C#"
+    },
+    {
+        "ROOT": "D#/Eb",
+        "MODE": "Locrian",
+        "NOTES": "D#,E,F#,G#,A,B,C#"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Ionian",
+        "NOTES": "E,F#,G#,A,B,C#,D#"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Dorian",
+        "NOTES": "E,F#,G,A,B,C#,D"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Phrygian",
+        "NOTES": "E,F,G,A,B,C,D"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Lydian",
+        "NOTES": "E,F#,G#,A#,B,C#,D#"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Mixolydian",
+        "NOTES": "E,F#,G#,A,B,C#,D"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Aeolian",
+        "NOTES": "E,F#,G,A,B,C,D"
+    },
+    {
+        "ROOT": "E",
+        "MODE": "Locrian",
+        "NOTES": "E,F,G,A,Bb,C,D"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Ionian",
+        "NOTES": "F,G,A,Bb,C,D,E"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Dorian",
+        "NOTES": "F,G,Ab,Bb,C,D,Eb"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Phrygian",
+        "NOTES": "F,Gb,Ab,Bb,C,Db,Eb"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Lydian",
+        "NOTES": "F,G,A,B,C,D,E"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Mixolydian",
+        "NOTES": "F,G,A,Bb,C,D,Eb"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Aeolian",
+        "NOTES": "F,G,Ab,Bb,C,Db,Eb"
+    },
+    {
+        "ROOT": "F",
+        "MODE": "Locrian",
+        "NOTES": "F,F#,G#,A#,B,C#,D#"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Ionian",
+        "NOTES": "F#,G#,A#,B,C#,D#,F"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Dorian",
+        "NOTES": "F#,G#,A,B,C#,D#,E"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Phrygian",
+        "NOTES": "F#,G,A,B,C#,D,E"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Lydian",
+        "NOTES": "Gb,Ab,Bb,C,Db,Eb,F"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Mixolydian",
+        "NOTES": "F#,G#,A#,B,C#,D#,E"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Aeolian",
+        "NOTES": "F#,G#,A,B,C#,D,E"
+    },
+    {
+        "ROOT": "F#/Gb",
+        "MODE": "Locrian",
+        "NOTES": "F#,G,A,B,C,D,E"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Ionian",
+        "NOTES": "G,A,B,C,D,E,F#"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Dorian",
+        "NOTES": "G,A,Bb,C,D,E,F"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Phrygian",
+        "NOTES": "G,Ab,Bb,C,D,Eb,F"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Lydian",
+        "NOTES": "G,A,B,C#,D,E,F#"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Mixolydian",
+        "NOTES": "G,A,B,C,D,E,F"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Aeolian",
+        "NOTES": "G,A,Bb,C,D,Eb,F"
+    },
+    {
+        "ROOT": "G",
+        "MODE": "Locrian",
+        "NOTES": "G,Ab,Bb,C,Db,Eb,F"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Ionian",
+        "NOTES": "Ab,Bb,C,Db,Eb,F,G"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Dorian",
+        "NOTES": "G#,A#,B,C#,D#,F,F#"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Phrygian",
+        "NOTES": "G#,A,B,C#,D#,E,F#"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Lydian",
+        "NOTES": "Ab,Bb,C,D,Eb,F,G"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Mixolydian",
+        "NOTES": "Ab,Bb,C,Db,Eb,F,Gb"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Aeolian",
+        "NOTES": "G#,A#,B,C#,D#,E,F#"
+    },
+    {
+        "ROOT": "G#/Ab",
+        "MODE": "Locrian",
+        "NOTES": "G#,A,B,C#,D,E,F#"
+    }
+]
