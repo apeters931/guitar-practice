@@ -60,7 +60,7 @@ function gameLoop(gameType) {
                     timerElement.textContent = countDownTime;
                     if (countDownTime == 0) {
                         hideObjects()
-                        generate_score(counter,correctAnswer,correctPercent,avgTime,score,true);
+                        generate_score(counter,correctAnswer,correctPercent,avgTime,score,true,true);
                         closePopup("gameover");
                         clearInterval(countDown)
                         document.getElementById("play-again").onclick = function() {
@@ -81,7 +81,12 @@ function gameLoop(gameType) {
         }
 
         // set scoreboard
-        generate_score(counter,correctAnswer,correctPercent,avgTime,score);
+        if (gameType == 'timed') {
+            generate_score(counter,correctAnswer,correctPercent,avgTime,score,false,true);
+        }
+        else {
+            generate_score(counter,correctAnswer,correctPercent,avgTime,score);
+        }
         
     })
 
@@ -140,7 +145,12 @@ function gameLoop(gameType) {
             correctPercent = correct_percent(correctAnswer,counter);
 
             // update scoreboard
-            generate_score(counter,correctAnswer,correctPercent,avgTime,score);
+            if (gameType == 'timed') {
+                generate_score(counter,correctAnswer,correctPercent,avgTime,score,false,true);
+            }
+            else {
+                generate_score(counter,correctAnswer,correctPercent,avgTime,score);
+            }
 
         }
 
@@ -150,7 +160,7 @@ function gameLoop(gameType) {
     document.addEventListener('keydown', function(event) {
         // only want enter key to do anything when the subit button was already clicked
         if (event.key === 'Enter' && clickedFlag == true) {
-            if (counter == 3 && gameType == 'test'){
+            if (counter == 20 && gameType == 'test'){
                 hideObjects()
                 generate_score(counter,correctAnswer,correctPercent,avgTime,score,true);
                 clearInterval(countUp);
@@ -179,7 +189,7 @@ function gameLoop(gameType) {
 }
 
 // create scoreboard
-function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,gameOver=false){
+function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,gameOver=false,timed=false){
     // labels for scores
     var question_str = "Question: ";
     var correct_str = "Correct: ";
@@ -189,8 +199,13 @@ function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,g
 
     if (count == 1) {
         question_number = question_str + count.toString();
-        document.getElementById("scoreboard").textContent = score_str + "--";;
-        document.getElementById("score_line_1").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str + "--" +  ", " + time_str + "--";
+        document.getElementById("scoreboard").textContent = score_str + "--";
+        if (timed) {
+            document.getElementById("score_line_1").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str + "--";
+        }
+        else {
+            document.getElementById("score_line_1").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str  + "--" +  ", " + time_str + "--";
+        }
     }
 
     else if (counter >= correctAnswer) {
@@ -200,13 +215,23 @@ function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,g
         average_time_string = time_str + avgTime + "s";
         total_score = score_str + totalScore.toString();
         document.getElementById("scoreboard").textContent = total_score;
-        document.getElementById("score_line_1").textContent = question_number + ", " + correct_count + ", " + correct_percentage + ", " + average_time_string;
+        if (timed) {
+            document.getElementById("score_line_1").textContent = question_number + ", " + correct_count + ", " + correct_percentage;
+        }
+        else {
+            document.getElementById("score_line_1").textContent = question_number + ", " + correct_count + ", " + correct_percentage + ", " + average_time_string;
+        }
     }
 
     if (gameOver && count == 1) {
         question_number = question_str + count.toString();
-        document.getElementById("final-score").textContent = score_str + "--";;
-        document.getElementById("final-score-details").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str + "--" +  ", " + time_str + "--";
+        document.getElementById("final-score").textContent = score_str + "--";
+        if (timed) {
+            document.getElementById("final-score-details").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str + "--";
+        }
+        else {
+            document.getElementById("final-score-details").textContent = question_number + ", " + correct_str + "--" +  ", " + percent_str + "--" +  ", " + time_str + "--";
+        }
     }
     else if (gameOver) {
         question_number = question_str + counter.toString();
@@ -215,7 +240,12 @@ function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,g
         average_time_string = time_str + avgTime + "s";
         total_score = score_str + totalScore.toString();
         document.getElementById("final-score").textContent = total_score;
-        document.getElementById("final-score-details").textContent = question_number + ", " + correct_count + ", " + correct_percentage + ", " + average_time_string;
+        if (timed) {
+            document.getElementById("final-score-details").textContent = question_number + ", " + correct_count + ", " + correct_percentage;
+        }
+        else {
+            document.getElementById("final-score-details").textContent = question_number + ", " + correct_count + ", " + correct_percentage + ", " + average_time_string;
+        }
     }
 }
 
