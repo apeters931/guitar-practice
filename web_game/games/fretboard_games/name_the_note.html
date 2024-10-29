@@ -3,11 +3,132 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title>crossroads name the notes</title>
+        <title>crossroads chords</title>
         <link rel="icon" type="image/jpg" href="images/logo.jpg">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <div id="popup" class="popup">
+            <h2> Instructions </h2>
+            <p class="instruction-text"> 
+                placeholder
+            </p> <br>
+            <p class="instruction-text"> There are three different game options below  </p>
+            <p class="instruction-text"> 1. Infinite mode you can play as long as you'd like </p>
+            <p class="instruction-text"> 2. Timed mode you will have 100 seconds to answer as many as you can </p>
+            <p class="instruction-text"> 3. Test mode you will get 20 questions, though answering quickly is still important to your score </p> <br>
+            <p class="instruction-text"> The game will beign as soon as you select one of the below options </p> <br>
+            
+            <select id="game-mode">
+                <option value="play-infinite-mode">Play infinite mode</option>
+                <option value="play-timed-mode">Play timed mode</option>
+                <option value="play-test-mode">Play test mode</option>
+            </select>
+            <select id="neck-view">
+                <option value="horizontal">Horizontal</option>
+                <option value="vertical">Vertical</option>
+            </select>
+            <select id="start-fret">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">22</option>
+                <option value="22">22</option>
+            </select>
+            <select id="start-fret">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">22</option>
+                <option value="22">22</option>
+            </select>
+            <select id="key">
+                <option value="none">None</option>
+                <option value="a">A</option>
+                <option value="a#/bb">A#/Bb</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="c#/db">C#/Db</option>
+                <option value="d">D</option>
+                <option value="d#/eb">D#/Eb</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="f#/gb">F#/Gb</option>
+                <option value="g">G</option>
+                <option value="g#/ab">G#/Ab</option>
+            </select>
+            <br><br>
+            <form id="strings">
+                <input type="checkbox" value="all" id="all">
+                <label for="all">All</label>
+                <input type="checkbox" value="e-low" id="e-low">
+                <label for="e-low">E</label>
+                <input type="checkbox" value="a" id="a">
+                <label for="a">A</label>
+                <input type="checkbox" value="d" id="d">
+                <label for="d">D</label>
+                <input type="checkbox" value="g" id="g">
+                <label for="g">G</label>
+                <input type="checkbox" value="b" id="b">
+                <label for="b">B</label>
+                <input type="checkbox" value="e-high" id="e-high">
+                <label for="e-high">E</label>
+            </form>
+            <br>
+            <button id="play-button">Play</button>
+        </div>
+        <div id="container" class="container">
+            <div id="guitar-neck"class="guitar-neck">
+                <img id="neck-image" class="neck-image" src="images/guitar_neck_vertical.png" width="110" alt="neck">
+                <span id="dot" class="dot"></span>
+            </div>
+            <div class="answer-submit">
+                <input id="user-input" placeholder="Enter Notes" autocomplete="off">
+                <button id="my-submit">Submit</button>
+                <p id="timer"></p>
+                <h3 id="message">placeholder</h3>
+                <br><br>
+                <p id="scoreboard"></p>
+                <p id="score_line_1"></p>
+            </div>
+        </div>
+        <script src="name_the_note.js"></script>
     </body>
 </html>
