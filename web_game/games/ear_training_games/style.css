@@ -4,3 +4,9 @@ body {
     text-align: center;
     background-color: #2c3135;
 }
+
+.header-main {
+    padding-top: 200px;
+    font-size: 16px;
+    margin: 5px
+}

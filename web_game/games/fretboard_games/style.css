@@ -108,3 +108,9 @@ button:hover {
 #play-button {
     margin-top: 20px;
 }
+
+.header-main {
+    padding-top: 200px;
+    font-size: 16px;
+    margin: 5px
+}
