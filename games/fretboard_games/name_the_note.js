@@ -6,6 +6,7 @@ var avgTimeList = [];
 var avgTime;
 var medianTimeList = [];
 var score = 0;
+var randIndex;
 
 function generate_score(count,countCorrect=0,perecent=0,average=0,totalScore=0,gameOver=false,timed=false){
     // labels for scores
@@ -124,15 +125,47 @@ function gameLoop(gameType) {
     var dot = document.getElementById("dot");
     var clickedFlag = false;
     var time = 0;
+    var minFret = document.getElementById("start-fret").value;
+    var maxFret = document.getElementById("end-fret").value;
+    var strings = [];
+    if (document.getElementById("all").checked){ 
+        var strings = ['e-low','a','d','g','b','e-high'];
+    }
+    else {
+        if (document.getElementById("e-low").checked) {
+            strings.push(document.getElementById("e-low").value)
+        }
+        if (document.getElementById("a").checked) {
+            strings.push(document.getElementById("a").value)
+        }
+        if (document.getElementById("d").checked) {
+            strings.push(document.getElementById("d").value)
+        }
+        if (document.getElementById("g").checked) {
+            strings.push(document.getElementById("g").value)
+        }
+        if (document.getElementById("b").checked) {
+            strings.push(document.getElementById("b").value)
+        }
+        if (document.getElementById("e-high").checked) {
+            strings.push(document.getElementById("e-high").value)
+        }
+    }
 
     fetch("fretboard.json")
     .then(response => response.json())
     .then(data => {
-        randIndex = Math.floor(Math.random() * data.length);
+        var flag = true;
+        while (flag) {
+            randIndex = Math.floor(Math.random() * data.length);
+            if (parseInt(data[randIndex].Fret) >= minFret && parseInt(data[randIndex].Fret) <= maxFret && strings.includes(data[randIndex].String)) {
+                flag = false;
+            }
+        }
+        flag = true;
         note = data[randIndex].Note;
         toppx = data[randIndex].Top + "px";
         leftpx = data[randIndex].Left + "px";
-
         dot.style.top = toppx; // Set the top position
         dot.style.left = leftpx; // Set the left position
 
