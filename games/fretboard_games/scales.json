@@ -1,0 +1,290 @@
+[
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "A",
+        "TYPE": "MAJOR",
+        "SCALE": "A,B,C#,E,F#"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "A#/Bb",
+        "TYPE": "MAJOR",
+        "SCALE": "Bb,C,D,F,G"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "B",
+        "TYPE": "MAJOR",
+        "SCALE": "B,C#,D#,F#,G#"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "C",
+        "TYPE": "MAJOR",
+        "SCALE": "C,D,E,G,A"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "C#/Db",
+        "TYPE": "MAJOR",
+        "SCALE": "Db,Eb,F,Ab,Bb"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "D",
+        "TYPE": "MAJOR",
+        "SCALE": "D,E,F#,A,B"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "D#/Eb",
+        "TYPE": "MAJOR",
+        "SCALE": "Eb,F,G,Bb,C"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "E",
+        "TYPE": "MAJOR",
+        "SCALE": "E,F#,G#,B,C#"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "F",
+        "TYPE": "MAJOR",
+        "SCALE": "F,G,A,C,D"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "F#/Gb",
+        "TYPE": "MAJOR",
+        "SCALE": "F#,G#,A#,C#,D#"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "G",
+        "TYPE": "MAJOR",
+        "SCALE": "G,A,B,D,E"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "G#/Ab",
+        "TYPE": "MAJOR",
+        "SCALE": "Ab,Bb,C,Eb,F"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "A",
+        "TYPE": "MINOR",
+        "SCALE": "A,C,D,E,G"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "A#/Bb",
+        "TYPE": "MINOR",
+        "SCALE": "Bb,Db,Eb,F,Ab"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "B",
+        "TYPE": "MINOR",
+        "SCALE": "B,D,E,F#,A"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "C",
+        "TYPE": "MINOR",
+        "SCALE": "C,Eb,F,G,Bb"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "C#/Db",
+        "TYPE": "MINOR",
+        "SCALE": "C#,E,F#,G#,B"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "D",
+        "TYPE": "MINOR",
+        "SCALE": "D,F,G,A,C"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "D#/Eb",
+        "TYPE": "MINOR",
+        "SCALE": "Eb,Gb,Ab,Bb,C#"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "E",
+        "TYPE": "MINOR",
+        "SCALE": "E,G,A,B,D"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "F",
+        "TYPE": "MINOR",
+        "SCALE": "F,Ab,Bb,C,Eb"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "F#/Gb",
+        "TYPE": "MINOR",
+        "SCALE": "F#,A,B,C#,E"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "G",
+        "TYPE": "MINOR",
+        "SCALE": "G,Bb,C,D,F"
+    },
+    {
+        "NAME": "PENTATONIC",
+        "NOTE": "G#/Ab",
+        "TYPE": "MINOR",
+        "SCALE": "G#,B,C#,D#,F#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "A",
+        "TYPE": "MAJOR",
+        "SCALE": "A,B,C#,D,E,F#,G#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "A#/Bb",
+        "TYPE": "MAJOR",
+        "SCALE": "Bb,C,D,Eb,F,G,A"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "B",
+        "TYPE": "MAJOR",
+        "SCALE": "B,C#,D#,E,F#,G#,A#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "C",
+        "TYPE": "MAJOR",
+        "SCALE": "C,D,E,F,G,A,B"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "C#/Db",
+        "TYPE": "MAJOR",
+        "SCALE": "Db,Eb,F,Gb,Ab,Bb,C"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "D",
+        "TYPE": "MAJOR",
+        "SCALE": "D,E,F#,G,A,B,C#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "D#/Eb",
+        "TYPE": "MAJOR",
+        "SCALE": "Eb,F,G,Ab,Bb,C,D"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "E",
+        "TYPE": "MAJOR",
+        "SCALE": "E,F#,G#,A,B,C#,D#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "F",
+        "TYPE": "MAJOR",
+        "SCALE": "F,G,A,Bb,C,D,E"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "F#/Gb",
+        "TYPE": "MAJOR",
+        "SCALE": "F#,G#,A#,B,C#,D#,F"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "G",
+        "TYPE": "MAJOR",
+        "SCALE": "G,A,B,C,D,E,F#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "G#/Ab",
+        "TYPE": "MAJOR",
+        "SCALE": "Ab,Bb,C,Db,Eb,F,G"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "A",
+        "TYPE": "MINOR",
+        "SCALE": "A,B,C,D,E,F,G"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "A#/Bb",
+        "TYPE": "MINOR",
+        "SCALE": "Bb,C,Db,Eb,F,Gb,Ab"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "B",
+        "TYPE": "MINOR",
+        "SCALE": "B,C#,D,E,F#,G,A"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "C",
+        "TYPE": "MINOR",
+        "SCALE": "C,D,Eb,F,G,Ab,Bb"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "C#/Db",
+        "TYPE": "MINOR",
+        "SCALE": "C#,D#,E,F#,G#,A,B"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "D",
+        "TYPE": "MINOR",
+        "SCALE": "D,E,F,G,A,Bb,C"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "D#/Eb",
+        "TYPE": "MINOR",
+        "SCALE": "Eb,F,Gb,Ab,Bb,B,C#"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "E",
+        "TYPE": "MINOR",
+        "SCALE": "E,F#,G,A,B,C,D"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "F",
+        "TYPE": "MINOR",
+        "SCALE": "F,G,Ab,Bb,C,Db,Eb"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "F#/Gb",
+        "TYPE": "MINOR",
+        "SCALE": "F#,G#,A,B,C#,D,E"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "G",
+        "TYPE": "MINOR",
+        "SCALE": "G,A,Bb,C,D,Eb,F"
+    },
+    {
+        "NAME": "DIATONIC",
+        "NOTE": "G#/Ab",
+        "TYPE": "MINOR",
+        "SCALE": "G#,A#,B,C#,D#,E,F#"
+    }
+]
