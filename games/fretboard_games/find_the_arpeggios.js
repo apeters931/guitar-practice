@@ -5,20 +5,30 @@
     var type;
     var scaleArray;
     var returnArray = [];
+    var difficulty;
+    var flag = true;
+    var probabilityArray = ["1","1","1","1","1","1","1","1","1","1","1","1","2","2","3"]
     
-    fetch("scales.json")
+    fetch("chords.json")
     .then(response => response.json())
     .then(data => {
-        randIndex = Math.floor(Math.random() * data.length);
-        scale = data[randIndex].SCALE;
+        // loop through until a chord is found that is the correct difficulty
+        //while (flag) {
+            // pick random item in probability array to be used as difficulty
+            difficulty = probabilityArray[Math.floor(Math.random()*probabilityArray.length)];
+            console.log(difficulty)
+            // pick a random chord from th data
+            randIndex = Math.floor(Math.random() * data.length);
+            // if the chord is the right difficulty stop looping
+            if (data[randIndex].Multiplier == difficulty) {
+                flag = false
+            }
+        //}
+        scale = data[randIndex].Notes;
         scaleArray = scale.split(',');
         returnArray.push(scaleArray);
-        note = data[randIndex].NOTE;
+        note = data[randIndex].Chords;
         returnArray.push(note);
-        scaleName = data[randIndex].NAME;
-        returnArray.push(scaleName);
-        type = data[randIndex].TYPE;
-        returnArray.push(type);
 
         // initialize variables
         let x;
@@ -32,7 +42,7 @@
         var keyType = returnArray[3];
         var keyScaleName = returnArray[2];
         var lowerKey = key.map(key => key.toLowerCase());
-        document.getElementById("main_title").textContent = keyNote + ' ' + keyType + ' ' + keyScaleName;
+        console.log(note);
         console.log(lowerKey);
 
         // MAIN GAME LOGIC

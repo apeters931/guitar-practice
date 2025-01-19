@@ -2,7 +2,111 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    align-items: center;
     background-color: #2c3135;
+}
+
+.popup {
+    width: 600px;
+    background-color: #2c3135;
+    border-radius: 6px;
+    border: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.instruction-text {
+    text-align: left;
+    margin: 4px;
+}
+
+.close-popup {
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.hide-objects {
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+}
+
+.guitar-neck {
+    width: 110px;
+    position:relative;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #47ca7c;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 199px;
+    left: 69px;
+  }
+
+.answer-submit {
+    padding: 20px;
+}
+
+input {
+    font-size:15px; 
+    background-color:#2c3135;
+    color:white;
+    padding: 8px;
+    border-radius:35px;
+    border:2px solid #47ca7c;
+}
+
+button {
+    font-size:15px; 
+    background-color:#2c3135; 
+    color:white;
+    padding: 8px;
+    border-radius:35px;
+    border:2px solid #47ca7c;
+    text-decoration: none;
+}
+
+button:hover {
+    background:#47ca7c;
+    color:#2c3135
+}
+
+#scoreboard {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+#score_line_1 {
+    font-size: 15px;
+    margin: 2px;
+}
+
+#message {
+    color: #2c3135;
+}
+
+#play-button {
+    margin-top: 20px;
 }
 
 .header-main {

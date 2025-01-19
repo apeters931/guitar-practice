@@ -1,0 +1,1322 @@
+[
+    {
+        "Note": "f",
+        "Fret": "1",
+        "String": "e-low",
+        "Top": "199",
+        "Left": "31",
+        "x": "35",
+        "y": "200",
+        "Sound": "mp3/f1.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "1",
+        "String": "a",
+        "Top": "199",
+        "Left": "39",
+        "x": "43",
+        "y": "200",
+        "Sound": "mp3/as-bb1.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "1",
+        "String": "d",
+        "Top": "199",
+        "Left": "46.5",
+        "x": "50.5",
+        "y": "200",
+        "Sound": "mp3/ds-eb1.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "1",
+        "String": "g",
+        "Top": "199",
+        "Left": "54",
+        "x": "58",
+        "y": "200",
+        "Sound": "mp3/gs-ab2.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "1",
+        "String": "b",
+        "Top": "199",
+        "Left": "61",
+        "x": "65",
+        "y": "200",
+        "Sound": "mp3/c2.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "1",
+        "String": "e-high",
+        "Top": "199",
+        "Left": "69",
+        "x": "73",
+        "y": "200",
+        "Sound": "mp3/f3.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "2",
+        "String": "e-low",
+        "Top": "232",
+        "Left": "31",
+        "x": "35",
+        "y": "233",
+        "Sound": "mp3/fs-gb1.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "2",
+        "String": "a",
+        "Top": "232",
+        "Left": "39",
+        "x": "43",
+        "y": "233",
+        "Sound": "mp3/b1.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "2",
+        "String": "d",
+        "Top": "232",
+        "Left": "46.5",
+        "x": "50.5",
+        "y": "233",
+        "Sound": "mp3/e2.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "2",
+        "String": "g",
+        "Top": "232",
+        "Left": "54",
+        "x": "58",
+        "y": "233",
+        "Sound": "mp3/a2.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "2",
+        "String": "b",
+        "Top": "232",
+        "Left": "62",
+        "x": "66",
+        "y": "233",
+        "Sound": "mp3/cs-db2.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "2",
+        "String": "e-high",
+        "Top": "232",
+        "Left": "70",
+        "x": "74",
+        "y": "233",
+        "Sound": "mp3/fs-gb3.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "3",
+        "String": "e-low",
+        "Top": "265",
+        "Left": "31",
+        "x": "35",
+        "y": "266",
+        "Sound": "mp3/g1.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "3",
+        "String": "a",
+        "Top": "265",
+        "Left": "39",
+        "x": "43",
+        "y": "266",
+        "Sound": "mp3/c1.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "3",
+        "String": "d",
+        "Top": "265",
+        "Left": "47",
+        "x": "51",
+        "y": "266",
+        "Sound": "mp3/f2.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "3",
+        "String": "g",
+        "Top": "265",
+        "Left": "55",
+        "x": "59",
+        "y": "266",
+        "Sound": "mp3/as-bb2.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "3",
+        "String": "b",
+        "Top": "265",
+        "Left": "62",
+        "x": "66",
+        "y": "266",
+        "Sound": "mp3/d2.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "3",
+        "String": "e-high",
+        "Top": "265",
+        "Left": "71",
+        "x": "75",
+        "y": "266",
+        "Sound": "mp3/g3.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "4",
+        "String": "e-low",
+        "Top": "295",
+        "Left": "31",
+        "x": "35",
+        "y": "296",
+        "Sound": "mp3/gs-ab1.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "4",
+        "String": "a",
+        "Top": "295",
+        "Left": "39",
+        "x": "43",
+        "y": "296",
+        "Sound": "mp3/cs-db1.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "4",
+        "String": "d",
+        "Top": "295",
+        "Left": "47",
+        "x": "51",
+        "y": "296",
+        "Sound": "mp3/fs-gb2.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "4",
+        "String": "g",
+        "Top": "295",
+        "Left": "55",
+        "x": "59",
+        "y": "296",
+        "Sound": "mp3/b2.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "4",
+        "String": "b",
+        "Top": "295",
+        "Left": "63",
+        "x": "67",
+        "y": "296",
+        "Sound": "mp3/ds-eb2.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "4",
+        "String": "e-high",
+        "Top": "295",
+        "Left": "71",
+        "x": "75",
+        "y": "296",
+        "Sound": "mp3/gs-ab3.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "5",
+        "String": "e-low",
+        "Top": "323",
+        "Left": "31",
+        "x": "35",
+        "y": "324",
+        "Sound": "mp3/a1.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "5",
+        "String": "a",
+        "Top": "323",
+        "Left": "39",
+        "x": "43",
+        "y": "324",
+        "Sound": "mp3/d1.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "5",
+        "String": "d",
+        "Top": "323",
+        "Left": "47",
+        "x": "51",
+        "y": "324",
+        "Sound": "mp3/g2.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "5",
+        "String": "g",
+        "Top": "323",
+        "Left": "55",
+        "x": "59",
+        "y": "324",
+        "Sound": "mp3/c2.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "5",
+        "String": "b",
+        "Top": "323",
+        "Left": "64",
+        "x": "68",
+        "y": "324",
+        "Sound": "mp3/e3.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "5",
+        "String": "e-high",
+        "Top": "323",
+        "Left": "72",
+        "x": "76",
+        "y": "324",
+        "Sound": "mp3/a3.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "6",
+        "String": "e-low",
+        "Top": "351",
+        "Left": "31",
+        "x": "35",
+        "y": "352",
+        "Sound": "mp3/as-bb1.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "6",
+        "String": "a",
+        "Top": "351",
+        "Left": "39",
+        "x": "43",
+        "y": "352",
+        "Sound": "mp3/ds-eb1.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "6",
+        "String": "d",
+        "Top": "351",
+        "Left": "47.5",
+        "x": "51.5",
+        "y": "352",
+        "Sound": "mp3/gs-ab2.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "6",
+        "String": "g",
+        "Top": "351",
+        "Left": "56",
+        "x": "60",
+        "y": "352",
+        "Sound": "mp3/cs-db2.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "6",
+        "String": "b",
+        "Top": "351",
+        "Left": "64",
+        "x": "68",
+        "y": "352",
+        "Sound": "mp3/f3.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "6",
+        "String": "e-high",
+        "Top": "351",
+        "Left": "73",
+        "x": "77",
+        "y": "352",
+        "Sound": "mp3/as-bb3.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "7",
+        "String": "e-low",
+        "Top": "377",
+        "Left": "31",
+        "x": "35",
+        "y": "378",
+        "Sound": "mp3/b1.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "7",
+        "String": "a",
+        "Top": "377",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "378",
+        "Sound": "mp3/e2.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "7",
+        "String": "d",
+        "Top": "377",
+        "Left": "48",
+        "x": "52",
+        "y": "378",
+        "Sound": "mp3/a2.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "7",
+        "String": "g",
+        "Top": "377",
+        "Left": "56",
+        "x": "60",
+        "y": "378",
+        "Sound": "mp3/d2.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "7",
+        "String": "b",
+        "Top": "377",
+        "Left": "65",
+        "x": "69",
+        "y": "378",
+        "Sound": "mp3/fs-gb3.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "7",
+        "String": "e-high",
+        "Top": "377",
+        "Left": "73",
+        "x": "77",
+        "y": "378",
+        "Sound": "mp3/b3.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "8",
+        "String": "e-low",
+        "Top": "401",
+        "Left": "31",
+        "x": "35",
+        "y": "402",
+        "Sound": "mp3/c1.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "8",
+        "String": "a",
+        "Top": "401",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "402",
+        "Sound": "mp3/f2.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "8",
+        "String": "d",
+        "Top": "401",
+        "Left": "48",
+        "x": "52",
+        "y": "402",
+        "Sound": "mp3/as-bb2.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "8",
+        "String": "g",
+        "Top": "401",
+        "Left": "56",
+        "x": "60",
+        "y": "402",
+        "Sound": "mp3/ds-eb2.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "8",
+        "String": "b",
+        "Top": "401",
+        "Left": "65",
+        "x": "69",
+        "y": "402",
+        "Sound": "mp3/g3.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "8",
+        "String": "e-high",
+        "Top": "401",
+        "Left": "74",
+        "x": "78",
+        "y": "402",
+        "Sound": "mp3/c3.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "9",
+        "String": "e-low",
+        "Top": "425",
+        "Left": "31",
+        "x": "35",
+        "y": "426",
+        "Sound": "mp3/cs-db1.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "9",
+        "String": "a",
+        "Top": "425",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "426",
+        "Sound": "mp3/fs-gb2.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "9",
+        "String": "d",
+        "Top": "425",
+        "Left": "48",
+        "x": "52",
+        "y": "426",
+        "Sound": "mp3/b2.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "9",
+        "String": "g",
+        "Top": "425",
+        "Left": "57",
+        "x": "61",
+        "y": "426",
+        "Sound": "mp3/e3.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "9",
+        "String": "b",
+        "Top": "425",
+        "Left": "66",
+        "x": "70",
+        "y": "426",
+        "Sound": "mp3/gs-ab3.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "9",
+        "String": "e-high",
+        "Top": "425",
+        "Left": "75",
+        "x": "79",
+        "y": "426",
+        "Sound": "mp3/cs-db3.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "10",
+        "String": "e-low",
+        "Top": "447",
+        "Left": "31",
+        "x": "35",
+        "y": "448",
+        "Sound": "mp3/d1.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "10",
+        "String": "a",
+        "Top": "447",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "448",
+        "Sound": "mp3/g2.mp3"
+    },
+    {
+        "Note": "c",
+        "Fret": "10",
+        "String": "d",
+        "Top": "447",
+        "Left": "48",
+        "x": "52",
+        "y": "448",
+        "Sound": "mp3/c2.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "10",
+        "String": "g",
+        "Top": "447",
+        "Left": "57",
+        "x": "61",
+        "y": "448",
+        "Sound": "mp3/f3.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "10",
+        "String": "b",
+        "Top": "447",
+        "Left": "66",
+        "x": "70",
+        "y": "448",
+        "Sound": "mp3/a3.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "10",
+        "String": "e-high",
+        "Top": "447",
+        "Left": "75",
+        "x": "79",
+        "y": "448",
+        "Sound": "mp3/d3.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "11",
+        "String": "e-low",
+        "Top": "467",
+        "Left": "31",
+        "x": "35",
+        "y": "468",
+        "Sound": "mp3/ds-eb1.mp3"
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "11",
+        "String": "a",
+        "Top": "467",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "468",
+        "Sound": "mp3/gs-ab2.mp3"
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "11",
+        "String": "d",
+        "Top": "467",
+        "Left": "48",
+        "x": "52",
+        "y": "468",
+        "Sound": "mp3/cs-db2.mp3"
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "11",
+        "String": "g",
+        "Top": "467",
+        "Left": "57",
+        "x": "61",
+        "y": "468",
+        "Sound": "mp3/fs-gb3.mp3"
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "11",
+        "String": "b",
+        "Top": "467",
+        "Left": "66.5",
+        "x": "70.5",
+        "y": "468",
+        "Sound": "mp3/as-bb3.mp3"
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "11",
+        "String": "e-high",
+        "Top": "467",
+        "Left": "76",
+        "x": "80",
+        "y": "468",
+        "Sound": "mp3/ds-eb3.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "12",
+        "String": "e-low",
+        "Top": "488",
+        "Left": "30",
+        "x": "34",
+        "y": "489",
+        "Sound": "mp3/e2.mp3"
+    },
+    {
+        "Note": "a",
+        "Fret": "12",
+        "String": "a",
+        "Top": "488",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "489",
+        "Sound": "mp3/a2.mp3"
+    },
+    {
+        "Note": "d",
+        "Fret": "12",
+        "String": "d",
+        "Top": "488",
+        "Left": "48.5",
+        "x": "52.5",
+        "y": "489",
+        "Sound": "mp3/d2.mp3"
+    },
+    {
+        "Note": "g",
+        "Fret": "12",
+        "String": "g",
+        "Top": "488",
+        "Left": "57.5",
+        "x": "61.5",
+        "y": "489",
+        "Sound": "mp3/g3.mp3"
+    },
+    {
+        "Note": "b",
+        "Fret": "12",
+        "String": "b",
+        "Top": "488",
+        "Left": "67.5",
+        "x": "71.5",
+        "y": "489",
+        "Sound": "mp3/b3.mp3"
+    },
+    {
+        "Note": "e",
+        "Fret": "12",
+        "String": "e-high",
+        "Top": "488",
+        "Left": "76.5",
+        "x": "80.5",
+        "y": "489",
+        "Sound": "mp3/e4.mp3"
+    },
+    {
+        "Note": "f",
+        "Fret": "13",
+        "String": "e-low",
+        "Top": "506.5",
+        "Left": "31",
+        "x": "35",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "13",
+        "String": "a",
+        "Top": "506.5",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "13",
+        "String": "d",
+        "Top": "506.5",
+        "Left": "48.5",
+        "x": "52.5",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "13",
+        "String": "g",
+        "Top": "506.5",
+        "Left": "58",
+        "x": "62",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "13",
+        "String": "b",
+        "Top": "506.5",
+        "Left": "67.5",
+        "x": "71.5",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "f",
+        "Fret": "13",
+        "String": "e-high",
+        "Top": "506.5",
+        "Left": "77",
+        "x": "81",
+        "y": "507.5",
+        "Sound": ""
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "14",
+        "String": "e-low",
+        "Top": "525",
+        "Left": "30.5",
+        "x": "34.5",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "b",
+        "Fret": "14",
+        "String": "a",
+        "Top": "525",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "e",
+        "Fret": "14",
+        "String": "d",
+        "Top": "525",
+        "Left": "49",
+        "x": "53",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "a",
+        "Fret": "14",
+        "String": "g",
+        "Top": "525",
+        "Left": "58",
+        "x": "62",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "14",
+        "String": "b",
+        "Top": "525",
+        "Left": "68",
+        "x": "72",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "14",
+        "String": "e-high",
+        "Top": "525",
+        "Left": "77.5",
+        "x": "81.5",
+        "y": "526",
+        "Sound": ""
+    },
+    {
+        "Note": "g",
+        "Fret": "15",
+        "String": "e-low",
+        "Top": "542",
+        "Left": "30.5",
+        "x": "34.5",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "15",
+        "String": "a",
+        "Top": "542",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "f",
+        "Fret": "15",
+        "String": "d",
+        "Top": "542",
+        "Left": "49",
+        "x": "53",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "15",
+        "String": "g",
+        "Top": "542",
+        "Left": "58.5",
+        "x": "62.5",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "d",
+        "Fret": "15",
+        "String": "b",
+        "Top": "542",
+        "Left": "68",
+        "x": "72",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "g",
+        "Fret": "15",
+        "String": "e-high",
+        "Top": "542",
+        "Left": "77.5",
+        "x": "81.5",
+        "y": "543",
+        "Sound": ""
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "16",
+        "String": "e-low",
+        "Top": "559",
+        "Left": "30.5",
+        "x": "34.5",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "16",
+        "String": "a",
+        "Top": "559",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "16",
+        "String": "d",
+        "Top": "559",
+        "Left": "49",
+        "x": "53",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "b",
+        "Fret": "16",
+        "String": "g",
+        "Top": "559",
+        "Left": "58.5",
+        "x": "62.5",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "16",
+        "String": "b",
+        "Top": "559",
+        "Left": "68.5",
+        "x": "72.5",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "16",
+        "String": "e-high",
+        "Top": "559",
+        "Left": "78",
+        "x": "82",
+        "y": "560",
+        "Sound": ""
+    },
+    {
+        "Note": "a",
+        "Fret": "17",
+        "String": "e-low",
+        "Top": "574",
+        "Left": "30",
+        "x": "34",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "d",
+        "Fret": "17",
+        "String": "a",
+        "Top": "574",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "g",
+        "Fret": "17",
+        "String": "d",
+        "Top": "574",
+        "Left": "49",
+        "x": "53",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "17",
+        "String": "g",
+        "Top": "574",
+        "Left": "58.5",
+        "x": "62.5",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "e",
+        "Fret": "17",
+        "String": "b",
+        "Top": "574",
+        "Left": "69",
+        "x": "73",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "a",
+        "Fret": "17",
+        "String": "e-high",
+        "Top": "574",
+        "Left": "78.5",
+        "x": "82.5",
+        "y": "575",
+        "Sound": ""
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "18",
+        "String": "e-low",
+        "Top": "588.5",
+        "Left": "30",
+        "x": "34",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "18",
+        "String": "a",
+        "Top": "588.5",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "18",
+        "String": "d",
+        "Top": "588.5",
+        "Left": "49",
+        "x": "53",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "18",
+        "String": "g",
+        "Top": "588.5",
+        "Left": "59",
+        "x": "63",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "f",
+        "Fret": "18",
+        "String": "b",
+        "Top": "588.5",
+        "Left": "69",
+        "x": "73",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "18",
+        "String": "e-high",
+        "Top": "588.5",
+        "Left": "79",
+        "x": "83",
+        "y": "589.5",
+        "Sound": ""
+    },
+    {
+        "Note": "b",
+        "Fret": "19",
+        "String": "e-low",
+        "Top": "602",
+        "Left": "29.5",
+        "x": "33.5",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "e",
+        "Fret": "19",
+        "String": "a",
+        "Top": "602",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "a",
+        "Fret": "19",
+        "String": "d",
+        "Top": "602",
+        "Left": "49",
+        "x": "53",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "d",
+        "Fret": "19",
+        "String": "g",
+        "Top": "602",
+        "Left": "59",
+        "x": "63",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "19",
+        "String": "b",
+        "Top": "602",
+        "Left": "69.5",
+        "x": "73.5",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "b",
+        "Fret": "19",
+        "String": "e-high",
+        "Top": "602",
+        "Left": "80",
+        "x": "84",
+        "y": "603",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "20",
+        "String": "e-low",
+        "Top": "616",
+        "Left": "29.5",
+        "x": "33.5",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "f",
+        "Fret": "20",
+        "String": "a",
+        "Top": "616",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "a#/bb",
+        "Fret": "20",
+        "String": "d",
+        "Top": "616",
+        "Left": "49",
+        "x": "53",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "d#/eb",
+        "Fret": "20",
+        "String": "g",
+        "Top": "616",
+        "Left": "59.5",
+        "x": "63.5",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "g",
+        "Fret": "20",
+        "String": "b",
+        "Top": "616",
+        "Left": "69.5",
+        "x": "73.5",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "20",
+        "String": "e-high",
+        "Top": "616",
+        "Left": "80",
+        "x": "84",
+        "y": "617",
+        "Sound": ""
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "21",
+        "String": "e-low",
+        "Top": "627.5",
+        "Left": "29.5",
+        "x": "33.5",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "f#/gb",
+        "Fret": "21",
+        "String": "a",
+        "Top": "627.5",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "b",
+        "Fret": "21",
+        "String": "d",
+        "Top": "627.5",
+        "Left": "49",
+        "x": "53",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "e",
+        "Fret": "21",
+        "String": "g",
+        "Top": "627.5",
+        "Left": "60",
+        "x": "64",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "g#/ab",
+        "Fret": "21",
+        "String": "b",
+        "Top": "627.5",
+        "Left": "70",
+        "x": "74",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "c#/db",
+        "Fret": "21",
+        "String": "e-high",
+        "Top": "627.5",
+        "Left": "80",
+        "x": "84",
+        "y": "628.5",
+        "Sound": ""
+    },
+    {
+        "Note": "d",
+        "Fret": "22",
+        "String": "e-low",
+        "Top": "639.5",
+        "Left": "29.5",
+        "x": "33.5",
+        "y": "640.5",
+        "Sound": ""
+    },
+    {
+        "Note": "g",
+        "Fret": "22",
+        "String": "a",
+        "Top": "639.5",
+        "Left": "39.5",
+        "x": "43.5",
+        "y": "640.5",
+        "Sound": ""
+    },
+    {
+        "Note": "c",
+        "Fret": "22",
+        "String": "d",
+        "Top": "639.5",
+        "Left": "49.5",
+        "x": "53.5",
+        "y": "640.5",
+        "Sound": ""
+    },
+    {
+        "Note": "f",
+        "Fret": "22",
+        "String": "g",
+        "Top": "639.5",
+        "Left": "60",
+        "x": "64",
+        "y": "640.5",
+        "Sound": ""
+    },
+    {
+        "Note": "a",
+        "Fret": "22",
+        "String": "b",
+        "Top": "639.5",
+        "Left": "70",
+        "x": "74",
+        "y": "640.5",
+        "Sound": ""
+    },
+    {
+        "Note": "d",
+        "Fret": "22",
+        "String": "e-high",
+        "Top": "639.5",
+        "Left": "80.5",
+        "x": "84.5",
+        "y": "640.5",
+        "Sound": ""
+    }
+]
