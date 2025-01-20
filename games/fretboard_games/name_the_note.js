@@ -147,8 +147,9 @@ function gameLoop(gameType) {
     var key = document.getElementById("key").value;
     var strings = [];
     if (document.getElementById("all").checked){ 
-        var strings = ['e-low','a','d','g','b','e-high'];
+       strings = ['e-low','a','d','g','b','e-high'];
     }
+
     else {
         if (document.getElementById("e-low").checked) {
             strings.push(document.getElementById("e-low").value)
@@ -168,6 +169,10 @@ function gameLoop(gameType) {
         if (document.getElementById("e-high").checked) {
             strings.push(document.getElementById("e-high").value)
         }
+    }
+
+    if (strings.length == 0) {
+        strings = ['e-low','a','d','g','b','e-high'];
     }
 
     fetch("fretboard.json")
