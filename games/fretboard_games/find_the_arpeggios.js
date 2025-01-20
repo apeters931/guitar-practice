@@ -16,7 +16,6 @@
         //while (flag) {
             // pick random item in probability array to be used as difficulty
             difficulty = probabilityArray[Math.floor(Math.random()*probabilityArray.length)];
-            console.log(difficulty)
             // pick a random chord from th data
             randIndex = Math.floor(Math.random() * data.length);
             // if the chord is the right difficulty stop looping
@@ -66,18 +65,33 @@
                 // gets cordinates for closest note
                 let final_xy = findClosestNote(x, y, fretboard)
                 // draws dot using the closest note cordinates
-                if (lowerKey.includes(final_xy[2])) {
-                    var color = '#47ca7c'
+                var color;
+                var noteClickedArray = []
+                if (final_xy[2].length == 5) {
+                    noteClickedArray = final_xy[2].split('/');
+                    // console.log(noteClickedArray);
+                    // console.log(lowerKey);
+                    if (lowerKey.includes(noteClickedArray[0]) || lowerKey.includes(noteClickedArray[1])) {
+                        color = '#47ca7c';
+                    }
+                    else {
+                        color = '#ff0000';
+                    }
                 }
                 else {
-                    color = '#ff0000'
+                    if (lowerKey.includes(final_xy[2])) {
+                        color = '#47ca7c';
+                    }
+                    else {
+                        color = '#ff0000';
+                    }
                 }
                 ctx.fillStyle = color;
                 ctx.beginPath();
                 ctx.arc(final_xy[0], final_xy[1], 4, 0, Math.PI*2);
                 ctx.fill();
                 ctx.stroke;
-                console.log(final_xy[2])
+                //e.log(final_xy[2])
             });
             // clear dots when the backspacen key is pressed
             document.addEventListener("keydown", function(event){

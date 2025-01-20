@@ -1,3 +1,20 @@
+// keys
+keys = [
+    ['a','b','c#/db','d','e','f#/gb','g#/ab'],
+    ['a#/bb','c','d','d#/eb','f','g','a'],
+    ['b','c#/db','d#/eb','e','f#/gb','g#/ab','a#/bb'],
+    ['c','d','e','f','g','a','b'],
+    ['c#/db','d#/eb','f','f#/gb','g#/ab','a#/bb','c'],
+    ['d','e','f#/gb','g','a','b','c#/db'],
+    ['d#/eb','f','g','g#/ab','a#/bb','c','d'],
+    ['e','f#/gb','g#/ab','a','b','c#/db','d#/eb'],
+    ['f','g','a','a#/bb','c','d','e'],
+    ['f#/gb','g#/ab','a#/bb','b','c#/db','d#/eb','f'],
+    ['g','a','b','c','d','e','f#/gb'],
+    ['g#/ab','a#/bb','c','c#/db','d#/eb','f','g'],
+    ['a','a#/bb','b','c','c#/db','d','d#/eb','e','f','f#/gb','g','g#/ab']
+];
+
 var counter = 1;
 var clickCount = 0;
 var correctAnswer = 0;
@@ -127,6 +144,7 @@ function gameLoop(gameType) {
     var time = 0;
     var minFret = document.getElementById("start-fret").value;
     var maxFret = document.getElementById("end-fret").value;
+    var key = document.getElementById("key").value;
     var strings = [];
     if (document.getElementById("all").checked){ 
         var strings = ['e-low','a','d','g','b','e-high'];
@@ -158,10 +176,12 @@ function gameLoop(gameType) {
         var flag = true;
         while (flag) {
             randIndex = Math.floor(Math.random() * data.length);
-            if (parseInt(data[randIndex].Fret) >= minFret && parseInt(data[randIndex].Fret) <= maxFret && strings.includes(data[randIndex].String)) {
+            if (parseInt(data[randIndex].Fret) >= minFret && parseInt(data[randIndex].Fret) <= maxFret && strings.includes(data[randIndex].String) && keys[key].includes(data[randIndex].Note)) {
                 flag = false;
             }
         }
+        console.log(keys[key]);
+        console.log(data[randIndex].Note);
         flag = true;
         note = data[randIndex].Note;
         toppx = data[randIndex].Top + "px";

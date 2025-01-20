@@ -1,0 +1,50 @@
+[
+    {
+        "Key": "A",
+        "Notes": "A,B,C#,D,E,F#,G#"
+    },
+    {
+        "Key": "A#/Bb",
+        "Notes": "Bb,C,D,Eb,F,G,A"
+    },
+    {
+        "Key": "B",
+        "Notes": "B,C#,D#,E,F#,G#,A#"
+    },
+    {
+        "Key": "C",
+        "Notes": "C,D,E,F,G,A,B"
+    },
+    {
+        "Key": "C#/Db",
+        "Notes": "Db,Eb,F,Gb,Ab,Bb,C"
+    },
+    {
+        "Key": "D",
+        "Notes": "D,E,F#,G,A,B,C#"
+    },
+    {
+        "Key": "D#/Eb",
+        "Notes": "Eb,F,G,Ab,Bb,C,D"
+    },
+    {
+        "Key": "E",
+        "Notes": "E,F#,G#,A,B,C#,D#"
+    },
+    {
+        "Key": "F",
+        "Notes": "F,G,A,Bb,C,D,E"
+    },
+    {
+        "Key": "F#/Gb",
+        "Notes": "F#,G#,A#,B,C#,D#,F"
+    },
+    {
+        "Key": "G",
+        "Notes": "G,A,B,C,D,E,F#"
+    },
+    {
+        "Key": "G#/Ab",
+        "Notes": "Ab,Bb,C,Db,Eb,F,G"
+    }
+]

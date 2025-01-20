@@ -56,11 +56,26 @@ fetch("scales.json")
             // gets cordinates for closest note
             let final_xy = findClosestNote(x, y, fretboard)
             // draws dot using the closest note cordinates
-            if (lowerKey.includes(final_xy[2])) {
-                var color = '#47ca7c'
+            var color;
+            var noteClickedArray = []
+            if (final_xy[2].length == 5) {
+                noteClickedArray = final_xy[2].split('/');
+                // console.log(noteClickedArray);
+                // console.log(lowerKey);
+                if (lowerKey.includes(noteClickedArray[0]) || lowerKey.includes(noteClickedArray[1])) {
+                    color = '#47ca7c';
+                }
+                else {
+                    color = '#ff0000';
+                }
             }
             else {
-                color = '#ff0000'
+                if (lowerKey.includes(final_xy[2])) {
+                    color = '#47ca7c';
+                }
+                else {
+                    color = '#ff0000';
+                }
             }
             ctx.fillStyle = color;
             ctx.beginPath();
