@@ -143,14 +143,36 @@ function findClosestNote(clicked_x, clicked_y, json) {
 
 function isValidChordVoicing(clicked,strings,frets,chord_notes) {
     // checks all clicked notes are in the chord
+    var clickedNotesClean = [];
     for (let i = 0; i < clicked.length; i++) {
+        if (clicked[i].length == 5) {
+            var clickedNoteArray = clicked[i].split('/');
+            clickedNotesClean.push(clickedNoteArray[0]);
+            clickedNotesClean.push(clickedNoteArray[1]);
+        }
         
-        if (chord_notes.includes(clicked[i])) {
+        else { 
+            var clickedNoteArray = [clicked[i],clicked[i]]
+            clickedNotesClean.push(clicked[i])
+        }
+        
+        if (chord_notes.includes(clickedNoteArray[0]) || chord_notes.includes(clickedNoteArray[1])) {
             correctNotes = correctNotes + 1;
         }
         
         else {
-            return false
+            return [false, clicked[i] + ' is not in chord']
+        }
+    }
+    // checks all notes in chord were clicked
+    for (let i = 0; i < chord_notes.length; i++) {
+        
+        if (clickedNotesClean.includes(chord_notes[i])) {
+            correctNotes = correctNotes + 1;
+        }
+        
+        else {
+            return [false, chord_notes[i] + ' was not selected']
         }
     }
     // checks there aren't clicked notes on the same string
@@ -161,27 +183,27 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
     var bCount = 0;
     var eHighCount = 0;
     for (let i = 0; i < strings.length; i++) {
-        if (string[i] == 'e_low') {
+        if (strings[i] == 'e_low') {
             eLowCount = eLowCount + 1;
         }
-        else if (string[i] == 'a') {
+        else if (strings[i] == 'a') {
             aCount = aCount + 1;
         }
-        else if (string[i] == 'd') {
+        else if (strings[i] == 'd') {
             dCount = dCount + 1;
         }
-        else if (string[i] == 'g') {
+        else if (strings[i] == 'g') {
             gCount = gCount + 1;
         }
-        else if (string[i] == 'b') {
+        else if (strings[i] == 'b') {
             bCount = bCount + 1;
         }
-        else if (string[i] == 'e_high') {
+        else if (strings[i] == 'e_high') {
             eHighCount = eHighCount + 1;
         }
     }
     if (eLowCount.length > 1 || aCount.length > 1 || dCount.length > 1 || gCount.length > 1 || bCount.length > 1 || eHighCount.length > 1) {
-        return false
+        return [false, 'cannot play multiple notes on the same string']
     }
     // checks frets aren't too far apart
     var fretsInt = frets.map(Number);
@@ -190,7 +212,7 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
     for (let i = 1; i < fretsSorted.length; i++) {
         fretDiff = fretsSorted[i] - fretsSorted[i-1];
         if (fretDiff > 2) {
-            return false
+            return [false, 'Fingers cannot stretch this far!']
         }
     }
     // if no false yet returned, true

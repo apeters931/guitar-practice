@@ -7,7 +7,8 @@
     var returnArray = [];
     var difficulty;
     var flag = true;
-    var probabilityArray = ["1","1","1","1","1","1","1","1","1","1","1","1","2","2","3"]
+    var probabilityArray = ["1","1","1","1","1","1","1","1","1","1","1","1","2","2","3"];
+    
     
     fetch("chords.json")
     .then(response => response.json())
@@ -42,6 +43,7 @@
         var keyScaleName = returnArray[2];
         var lowerKey = key.map(key => key.toLowerCase());
         console.log(note);
+        document.getElementById("main_title").textContent = note;
         console.log(lowerKey);
 
         // MAIN GAME LOGIC
