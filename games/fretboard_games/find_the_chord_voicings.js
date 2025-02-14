@@ -97,7 +97,7 @@ fetch("chords.json")
             if (event.key === 'Enter') {
                 var tf = isValidChordVoicing(clickedNotes,clickedStrings,clickedFrets,lowerKey);
                 console.log(tf);
-                document.getElementById("results").textContent = tf;
+                document.getElementById("results").textContent = tf[2] + ' ' + tf[1];
             }
         })
     });
@@ -163,7 +163,7 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
         }
         
         else {
-            return [false, clicked[i] + ' is not in chord']
+            return [false, clicked[i] + ' is not in chord', 'Incorect!']
         }
     }
     // checks all notes in chord were clicked
@@ -174,7 +174,7 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
         }
         
         else {
-            return [false, chord_notes[i] + ' was not selected']
+            return [false, chord_notes[i] + ' was not selected', 'Incorect!']
         }
     }
     // checks there aren't clicked notes on the same string
@@ -205,7 +205,7 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
         }
     }
     if (eLowCount.length > 1 || aCount.length > 1 || dCount.length > 1 || gCount.length > 1 || bCount.length > 1 || eHighCount.length > 1) {
-        return [false, 'cannot play multiple notes on the same string']
+        return [false, 'cannot play multiple notes on the same string', 'Incorect!']
     }
     // checks frets aren't too far apart
     var fretsInt = frets.map(Number);
@@ -214,9 +214,9 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
     for (let i = 1; i < fretsSorted.length; i++) {
         fretDiff = fretsSorted[i] - fretsSorted[i-1];
         if (fretDiff > 2) {
-            return [false, 'Fingers cannot stretch this far!']
+            return [false, 'Fingers cannot stretch this far!', 'Incorect!']
         }
     }
     // if no false yet returned, true
-    return true
+    return [true, 'Good job!', 'Yes!']
 }
