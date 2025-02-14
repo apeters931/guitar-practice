@@ -46,6 +46,7 @@ fetch("chords.json")
     var keyScaleName = returnArray[2];
     var lowerKey = key.map(key => key.toLowerCase());
     console.log(note);
+    document.getElementById("main_title").textContent = note;
     console.log(lowerKey);
 
     // MAIN GAME LOGIC
@@ -96,6 +97,7 @@ fetch("chords.json")
             if (event.key === 'Enter') {
                 var tf = isValidChordVoicing(clickedNotes,clickedStrings,clickedFrets,lowerKey);
                 console.log(tf);
+                document.getElementById("results").textContent = tf;
             }
         })
     });
