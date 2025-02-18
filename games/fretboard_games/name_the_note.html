@@ -12,96 +12,118 @@
         <div id="popup" class="popup">
             <h2> Instructions </h2>
             <p class="instruction-text"> 
-               Select the parameters below and click play!
-            </p> <br>
-            <p class="instruction-text"> Narrow areas of the fret board you want to work on  </p>
-            <p class="instruction-text"> 1. Start fret </p>
-            <p class="instruction-text"> 2. End Fret </p>
-            <p class="instruction-text"> 3. Key you want to play in </p>
-            <p class="instruction-text"> 4. Strings </p>
+                A dot will appear on the guitar neck and you will have to name which note it is.
+            </p>
+            <p class="instruction-text">
+                Select the parameters below and click play!
+            </p>
+
             
-            <select id="start-fret">
-                <option value="0" selected>0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">22</option>
-                <option value="22">22</option>
-            </select>
-            <select id="end-fret">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">22</option>
-                <option value="22" selected>22</option>
-            </select>
-            <select id="key">
-                <option value="12" selected>None</option>
-                <option value=0>A</option>
-                <option value=1>A#/Bb</option>
-                <option value=2>B</option>
-                <option value=3>C</option>
-                <option value=4>C#/Db</option>
-                <option value=5>D</option>
-                <option value=6>D#/Eb</option>
-                <option value=7>E</option>
-                <option value=8>F</option>
-                <option value=9>F#/Gb</option>
-                <option value=10>G</option>
-                <option value=11>G#/Ab</option>
-            </select>
-            <br><br>
-            <form id="strings">
-                <input type="checkbox" value="all" id="all">
-                <label for="all">All</label>
-                <input type="checkbox" value="e-low" id="e-low">
-                <label for="e-low">E</label>
-                <input type="checkbox" value="a" id="a">
-                <label for="a">A</label>
-                <input type="checkbox" value="d" id="d">
-                <label for="d">D</label>
-                <input type="checkbox" value="g" id="g">
-                <label for="g">G</label>
-                <input type="checkbox" value="b" id="b">
-                <label for="b">B</label>
-                <input type="checkbox" value="e-high" id="e-high">
-                <label for="e-high">E</label>
-            </form>
+            <div class="frets">
+                <p>Choose frets to be quizzed on</p>
+                <select id="start-fret" class="drop-downs">
+                    <option value="0" selected> Choose Start Fret </option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">22</option>
+                    <option value="22">22</option>
+                </select>
+                <select id="end-fret" class="drop-downs">
+                    <option value="22" selected>Choose End Fret</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">22</option>
+                    <option value="22">22</option>
+                </select>
+            </div>
+            <div class="key">
+                <p>Select key if you want to only be quizzed on notes in a certain key</p>
+                <select id="key" class="drop-downs">
+                    <option value="12" selected>Choose Key</option>
+                    <option value="12">None</option>
+                    <option value=0>A</option>
+                    <option value=1>Bb</option>
+                    <option value=2>B</option>
+                    <option value=3>C</option>
+                    <option value=4>Db</option>
+                    <option value=5>D</option>
+                    <option value=6>Eb</option>
+                    <option value=7>E</option>
+                    <option value=8>F</option>
+                    <option value=9>Gb</option>
+                    <option value=10>G</option>
+                    <option value=11>Ab</option>
+                </select>
+            </div>
+            <div class="strings">
+              <p>Pick strings to be quizzed on</p>
+              <label class="container-check">All
+                <input type="checkbox" checked="checked" value="all">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">E
+                <input type="checkbox" value="e-low">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">A
+                <input type="checkbox" value="a">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">D
+                <input type="checkbox" value="d">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">G
+                <input type="checkbox" value="g">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">B
+                <input type="checkbox" value="b">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container-check">E
+                <input type="checkbox" value="e-high">
+                <span class="checkmark"></span>
+              </label>
+            </div>
             <br>
             <button id="play-button">Play</button>
         </div>
