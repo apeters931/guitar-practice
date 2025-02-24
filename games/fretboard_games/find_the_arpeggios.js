@@ -7,10 +7,10 @@
     var returnArray = [];
     var difficulty;
     var flag = true;
-    var probabilityArray = ["1","1","1","1","1","1","1","1","1","1","1","1","2","2","3"];
+    var probabilityArray = ["0","0","0","0","0","0","0","0","0","0","0","0","0","1","1","1","1","1","1","1","1","2","2","3"];
     
     
-    fetch("chords.json")
+    fetch("chords2.json")
     .then(response => response.json())
     .then(data => {
         // loop through until a chord is found that is the correct difficulty

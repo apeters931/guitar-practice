@@ -1,0 +1,1682 @@
+[
+    {
+        "Chords": "A",
+        "Notes": "A,C#,E",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Am",
+        "Notes": "A,C,E",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Amaj7",
+        "Notes": "A,C#,E,G#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Amaj9",
+        "Notes": "A,C#,E,G#,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Amaj13",
+        "Notes": "A,C#,E,G#,B,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A7",
+        "Notes": "A,C#,E,G",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Am6",
+        "Notes": "A,C,E,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Am7",
+        "Notes": "A,C,E,G",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "A6",
+        "Notes": "A,C#,E,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Adim",
+        "Notes": "A,C,Eb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Aaug",
+        "Notes": "A,C#,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Am(maj7)",
+        "Notes": "A,C,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Asus2",
+        "Notes": "A,B,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Asus4",
+        "Notes": "A,D,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "A6/9",
+        "Notes": "A,C#,E,F#,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Am9",
+        "Notes": "A,C,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Am11",
+        "Notes": "A,C,E,G,B,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Am7b5",
+        "Notes": "A,C,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Am13",
+        "Notes": "A,C,E,G,B,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Adimb7",
+        "Notes": "A,C,Eb,Gb ",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A7sus4",
+        "Notes": "A,D,E,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A7b5",
+        "Notes": "A,C#,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A7aug",
+        "Notes": "A,C#,E#,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A9",
+        "Notes": "A,C#,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A9sus4",
+        "Notes": "A,D,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A9b5",
+        "Notes": "A,C#,Eb,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A9aug",
+        "Notes": "A,C#,E#,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "A13",
+        "Notes": "A,C#,E,G,B,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb",
+        "Notes": "Bb,D,F",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Bbm",
+        "Notes": "Bb,Db,F",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Bbmaj7",
+        "Notes": "Bb,D,F,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbmaj9",
+        "Notes": "Bb,D,F,A,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbmaj13",
+        "Notes": "Bb,D,F,A,C,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb7",
+        "Notes": "Bb,D,F,Ab",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbm6",
+        "Notes": "Bb,Db,F,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbm7",
+        "Notes": "Bb,Db,F,Ab",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bb6",
+        "Notes": "Bb,D,F,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbdim",
+        "Notes": "Bb,Db,Fb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbaug",
+        "Notes": "Bb,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbm(maj7)",
+        "Notes": "Bb,Db,F,A#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbsus2",
+        "Notes": "Bb,C,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bbsus4",
+        "Notes": "Bb,Eb,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bb6/9",
+        "Notes": "Bb,D,F,G,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbm9",
+        "Notes": "Bb,Db,F,A,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbm11",
+        "Notes": "Bb,Db,F,A,C,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbm7b5",
+        "Notes": "Bb,Db,Fb,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbm13",
+        "Notes": "Bb,Db,F,A,C,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bbdimb7",
+        "Notes": "Bb,Db,Fb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb7sus4",
+        "Notes": "Bb,Eb,F,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb7b5",
+        "Notes": "Bb,D,Fb,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb7aug",
+        "Notes": "Bb,D,F#,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb9",
+        "Notes": "Bb,D,F,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb9sus4",
+        "Notes": "Bb,Eb,F,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb9b5",
+        "Notes": "Bb,D,Fb,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb9aug",
+        "Notes": "Bb,D,F#,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bb13",
+        "Notes": "Bb,D,F,Ab,C,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B",
+        "Notes": "B,D#,F#",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Bm",
+        "Notes": "B,D,F#",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Bmaj7",
+        "Notes": "B,D#,F#,A#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bmaj9",
+        "Notes": "B,D#,F#,A#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bmaj13",
+        "Notes": "B,D#,F#,A#,C#,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B7",
+        "Notes": "B,D#,F#,A",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Bm6",
+        "Notes": "B,D,F#,G#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bm7",
+        "Notes": "B,D,F#,A",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "B6",
+        "Notes": "B,D#,F#,G#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bdim",
+        "Notes": "B,D,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Baug",
+        "Notes": "B,D#,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bm(maj7)",
+        "Notes": "B,D,F#,A#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bsus2",
+        "Notes": "B,C#,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Bsus4",
+        "Notes": "B,E,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "B6/9",
+        "Notes": "B,D#,F#,G#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bm9",
+        "Notes": "B,D#,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bm11",
+        "Notes": "B,D,F#,A,C#,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bm7b5",
+        "Notes": "B,D,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bm13",
+        "Notes": "B,D,F#,A,C#,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Bdimb7",
+        "Notes": "B,D,F,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B7sus4",
+        "Notes": "B,E,F#,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B7b5",
+        "Notes": "B,D#,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B7aug",
+        "Notes": "B,D#,G,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B9",
+        "Notes": "B,D#,F#,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B9sus4",
+        "Notes": "B,E,F#,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B9b5",
+        "Notes": "B,D#,F,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B9aug",
+        "Notes": "B,D#,G,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "B13",
+        "Notes": "B,D#,F#,A,C#,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C",
+        "Notes": "C,E,G",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Cm",
+        "Notes": "C,Eb,G",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Cmaj7",
+        "Notes": "C,E,G,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Cmaj9",
+        "Notes": "C,E,G,B,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cmaj13",
+        "Notes": "C,E,G,B,D,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C7",
+        "Notes": "C,E,G,Bb",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Cm6",
+        "Notes": "C,Eb,G,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Cm7",
+        "Notes": "C,Eb,G,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "C6",
+        "Notes": "C,E,G,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Cdim",
+        "Notes": "C,Eb,Gb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Caug",
+        "Notes": "C,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cm(maj7)",
+        "Notes": "C,Eb,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Csus2",
+        "Notes": "C,D,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Csus4",
+        "Notes": "C,F,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "C6/9",
+        "Notes": "C,E,G,A,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cm9",
+        "Notes": "C,Eb,G,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cm11",
+        "Notes": "C,Eb,G,Bb,D,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cm7b5",
+        "Notes": "C,Eb,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cm13",
+        "Notes": "C,Eb,G,Bb,D,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Cdimb7",
+        "Notes": "C,Eb,G,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C7sus4",
+        "Notes": "C,F,G,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C7b5",
+        "Notes": "C,E,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C7aug",
+        "Notes": "C,E,G#,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C9",
+        "Notes": "C,E,G,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C9sus4",
+        "Notes": "C,F,G,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C9b5",
+        "Notes": "C,E,GB,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C9aug",
+        "Notes": "C,E,G#,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C13",
+        "Notes": "C,E,G,Bb,D,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db",
+        "Notes": "Db,F,Ab",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "C#m",
+        "Notes": "C#,E,G#",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Dbmaj7",
+        "Notes": "Db,F,Ab,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dbmaj9",
+        "Notes": "Db,F,Ab,C,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dbmaj13",
+        "Notes": "Db,F,Ab,C,Eb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db7",
+        "Notes": "Db,F,Ab,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "C#m6",
+        "Notes": "C#,E,G#,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "C#m7",
+        "Notes": "C#,E,G#,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Db6",
+        "Notes": "Db,F,Ab,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "C#dim",
+        "Notes": "C#,Eb,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dbaug",
+        "Notes": "Db,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#m(maj7)",
+        "Notes": "C#,E,G#,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dbsus2",
+        "Notes": "Db,Eb,Ab",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dbsus4",
+        "Notes": "Db,Gb,Ab",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Db6/9",
+        "Notes": "Db,F,Ab,Bb,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#m9",
+        "Notes": "C#,E,G#,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#m11",
+        "Notes": "C#,E,G#,B,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#m7b5",
+        "Notes": "C#,E,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#m13",
+        "Notes": "C#,E,G#,B,Eb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "C#dimb7",
+        "Notes": "C#,E,G,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db7sus4",
+        "Notes": "Db,Gb,Ab,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db7b5",
+        "Notes": "Db,F,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db7aug",
+        "Notes": "Db,F,A,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db9",
+        "Notes": "Db,F,Ab,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db9sus4",
+        "Notes": "Db,Gb,Ab,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db9b5",
+        "Notes": "Db,F,G,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db9aug",
+        "Notes": "Db,F,A,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Db13",
+        "Notes": "Db,F,Ab,B,Eb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D",
+        "Notes": "D,F#,A",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Dm",
+        "Notes": "D,F,A",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Dmaj7",
+        "Notes": "D,F#,A,C#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dmaj9",
+        "Notes": "D,F#,A,C#,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dmaj13",
+        "Notes": "D,F#,A,C#,E,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D7",
+        "Notes": "D,F#,A,C",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Dm6",
+        "Notes": "D,F#,A,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dm7",
+        "Notes": "D,F,A,C",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "D6",
+        "Notes": "D,F#,A,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ddim",
+        "Notes": "D,F,Ab",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Daug",
+        "Notes": "D,F#,A#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dm(maj7)",
+        "Notes": "D,F,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dsus2",
+        "Notes": "D,E,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Dsus4",
+        "Notes": "D,G,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "D6/9",
+        "Notes": "D,F#,A,B,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dm9",
+        "Notes": "D,F,A,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dm11",
+        "Notes": "D,F,A,C,E,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dm7b5",
+        "Notes": "D,F,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Dm13",
+        "Notes": "D,F,A,C,E,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ddimb7",
+        "Notes": "D,F,Ab,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D7sus4",
+        "Notes": "D,G,A,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D7b5",
+        "Notes": "D,F#,Ab,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D7aug",
+        "Notes": "D,F#,A#,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D9",
+        "Notes": "D,F#,A,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D9sus4",
+        "Notes": "D,G,A,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D9b5",
+        "Notes": "D,F#,Ab,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D9aug",
+        "Notes": "D,F#,A#,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "D13",
+        "Notes": "D,F#,A,C,E,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb",
+        "Notes": "Eb,G,Bb",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Ebm",
+        "Notes": "Eb,Gb,Bb",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Ebmaj7",
+        "Notes": "Eb,G,Bb,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebmaj9",
+        "Notes": "Eb,G,Bb,D,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebmaj13",
+        "Notes": "Eb,G,Bb,D,F,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb7",
+        "Notes": "Eb,G,Bb,Db",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebm6",
+        "Notes": "Eb,Gb,Bb,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebm7",
+        "Notes": "Eb,Gb,Bb,Db",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Eb6",
+        "Notes": "Eb,G,Bb,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebdim",
+        "Notes": "Eb,Gb,A",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebaug",
+        "Notes": "Eb,G,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebm(maj7)",
+        "Notes": "Eb,G,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebsus2",
+        "Notes": "Eb,F,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ebsus4",
+        "Notes": "Eb,Ab,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Eb6/9",
+        "Notes": "Eb,G,Bb,C,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebm9",
+        "Notes": "Eb,Gb,Bb,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebm11",
+        "Notes": "Eb,Gb,Bb,Db,F,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebm7b5",
+        "Notes": "Eb,Gb,A,Db",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebm13",
+        "Notes": "Eb,Gb,Bb,Db,F,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ebdimb7",
+        "Notes": "Eb,Gb,A,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb7sus4",
+        "Notes": "Eb,Ab,Bb,Db",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb7b5",
+        "Notes": "Eb,G,A,Db",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb7aug",
+        "Notes": "Eb,G,B,Db",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb9",
+        "Notes": "Eb,G,Bb,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb9sus4",
+        "Notes": "Eb,Ab,Bb,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb9b5",
+        "Notes": "Eb,G,A,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb9aug",
+        "Notes": "Eb,G,B,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Eb13",
+        "Notes": "Eb,G,Bb,Db,F,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E",
+        "Notes": "E,G#,B",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Em",
+        "Notes": "E,G,B",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Emaj7",
+        "Notes": "E,G#,B,D#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Emaj9",
+        "Notes": "E,G#,B,D#,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Emaj13",
+        "Notes": "E,G#,B,D#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E7",
+        "Notes": "E,G#,B,D",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Em6",
+        "Notes": "E,G,B,C#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Em7",
+        "Notes": "E,G,B,D",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "E6",
+        "Notes": "E,G#,B,C#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Edim",
+        "Notes": "E,G,Bb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Eaug",
+        "Notes": "E,G#,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Em(maj7)",
+        "Notes": "E,G,B,D#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Esus2",
+        "Notes": "E,F#,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Esus4",
+        "Notes": "E,A,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "E6/9",
+        "Notes": "E,G#,B,C#,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Em9",
+        "Notes": "E,G,B,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Em11",
+        "Notes": "E,G,B,D,F#,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Em7b5",
+        "Notes": "E,G,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Em13",
+        "Notes": "E,G,B,D,F#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Edimb7",
+        "Notes": "E,G,Bb,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E7sus4",
+        "Notes": "E,A,B,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E7b5",
+        "Notes": "E,G#,Bb,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E7aug",
+        "Notes": "E,G#,C,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E9",
+        "Notes": "E,G#,B,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E9sus4",
+        "Notes": "E,A,B,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E9b5",
+        "Notes": "E,G#,Bb,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E9aug",
+        "Notes": "E,G#,C,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "E13",
+        "Notes": "E,G#,B,D,F#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F",
+        "Notes": "F,A,C",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Fm",
+        "Notes": "F,Ab,C",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Fmaj7",
+        "Notes": "F,A,C,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Fmaj9",
+        "Notes": "F,A,C,E,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fmaj13",
+        "Notes": "F,A,C,E,G,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F7",
+        "Notes": "F,A,C,Eb",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Fm6",
+        "Notes": "F,Ab,C,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Fm7",
+        "Notes": "F,Ab,C,Eb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F6",
+        "Notes": "F,A,C,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Fdim",
+        "Notes": "F,Ab,B",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Faug",
+        "Notes": "F,A,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fm(maj7)",
+        "Notes": "F,Ab,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fsus2",
+        "Notes": "F,G,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Fsus4",
+        "Notes": "F,Bb,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F6/9",
+        "Notes": "F,A,C,D,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fm9",
+        "Notes": "F,Ab,C,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fm11",
+        "Notes": "F,Ab,C,Eb,G,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fm7b5",
+        "Notes": "F,Ab,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fm13",
+        "Notes": "F,Ab,C,Eb,G,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Fdimb7",
+        "Notes": "F,Ab,B,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F7sus4",
+        "Notes": "F,Bb,C,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F7b5",
+        "Notes": "F,A,B,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F7aug",
+        "Notes": "F,A,C#,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F9",
+        "Notes": "F,A,C,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F9sus4",
+        "Notes": "F,Bb,C,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F9b5",
+        "Notes": "F,A,B,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F9aug",
+        "Notes": "F,A,C#,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F13",
+        "Notes": "F,A,C,Eb,G,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#",
+        "Notes": "F#,A#,C#",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "F#m",
+        "Notes": "F#,A,C#",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Gbmaj7",
+        "Notes": "Gb,Bb,Db,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gbmaj9",
+        "Notes": "Gb,Bb,Db,F,Ab",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gbmaj13",
+        "Notes": "Gb,Bb,Db,F,Ab,Eb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#7",
+        "Notes": "F#,A#,C#,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#m6",
+        "Notes": "F#,A,C#,D#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#m7",
+        "Notes": "F#,A,C#,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#6",
+        "Notes": "F#,A#,C#,D#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#dim",
+        "Notes": "F#,A,C",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#aug",
+        "Notes": "F#,A#,D",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gbm(maj7)",
+        "Notes": "Gb,A,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#sus2",
+        "Notes": "F#,G#,C#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#sus4",
+        "Notes": "F#,B,C#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "F#6/9",
+        "Notes": "F,A#,C#,D#,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#m9",
+        "Notes": "F#,A,C#,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#m11",
+        "Notes": "F#,A,C#,E,G#,B",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#m7b5",
+        "Notes": "F#,A,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#m13",
+        "Notes": "F#,A,C#,E,G#,D#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#dimb7",
+        "Notes": "F#,A,C,D#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#7sus4",
+        "Notes": "F#,B,C#,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#7b5",
+        "Notes": "F#,A#,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#7aug",
+        "Notes": "F#,A#,D,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#9",
+        "Notes": "F#,A#,C#,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#9sus4",
+        "Notes": "F#,B,C#,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#9b5",
+        "Notes": "F#,A#,C,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#9aug",
+        "Notes": "F#,A#,D,E,G#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "F#13",
+        "Notes": "F#,A#,C#,E,G#,D#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G",
+        "Notes": "G,B,D",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Gm",
+        "Notes": "G,Bb,D",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Gmaj7",
+        "Notes": "G,B,D,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gmaj9",
+        "Notes": "G,B,D,F#,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gmaj13",
+        "Notes": "G,B,D,F#,A,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G7",
+        "Notes": "G,B,D,F",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "Gm6",
+        "Notes": "G,Bb,D,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gm7",
+        "Notes": "G,Bb,D,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "G6",
+        "Notes": "G,B,D,E",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gdim",
+        "Notes": "G,Bb,Db",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gaug",
+        "Notes": "G,B,D#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gm(maj7)",
+        "Notes": "G,Bb,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gsus2",
+        "Notes": "G,A,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Gsus4",
+        "Notes": "G,C,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "G6/9",
+        "Notes": "G,B,D,E,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gm9",
+        "Notes": "G,Bb,D,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gm11",
+        "Notes": "G,Bb,D,F,A,C",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gm7b5",
+        "Notes": "G,Bb,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gm13",
+        "Notes": "G,Bb,D,F,A,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Gdimb7",
+        "Notes": "G,Bb,Db,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G7sus4",
+        "Notes": "G,C,D,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G7b5",
+        "Notes": "G,B,Db,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G7aug",
+        "Notes": "G,B,D#,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G9",
+        "Notes": "G,B,D,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G9sus4",
+        "Notes": "G,C,D,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G9b5",
+        "Notes": "G,B,Db,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G9aug",
+        "Notes": "G,B,D#,F,A",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G13",
+        "Notes": "G,B,D,F,A,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab",
+        "Notes": "Ab,C,Eb",
+        "Multiplier": "1"
+    },
+    {
+        "Chords": "G#m",
+        "Notes": "G#,B,D#",
+        "Multiplier": "0"
+    },
+    {
+        "Chords": "Abmaj7",
+        "Notes": "Ab,C,Eb,G",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Abmaj9",
+        "Notes": "Ab,C,Eb,G,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Abmaj13",
+        "Notes": "Ab,C,Eb,G,Bb,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab7",
+        "Notes": "Ab,C,Eb,Gb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "G#m6",
+        "Notes": "G#,B,D#,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "G#m7",
+        "Notes": "G#,B,D#,F#",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ab6",
+        "Notes": "Ab,C,Eb,F",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "G#dim",
+        "Notes": "G#,B,D",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Abaug",
+        "Notes": "Ab,C,E",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Abm(maj7)",
+        "Notes": "Ab,B,Eb,G",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Absus2",
+        "Notes": "Ab,Bb,Eb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Absus4",
+        "Notes": "Ab,Db,Eb",
+        "Multiplier": "2"
+    },
+    {
+        "Chords": "Ab6/9",
+        "Notes": "Ab,C,Eb,F,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G#m9",
+        "Notes": "G#,B,D#,F#,A#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G#m11",
+        "Notes": "G#,B,D#,F#,A#,C#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G#m7b5",
+        "Notes": "G#,B,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G#m7b5",
+        "Notes": "G#,B,D,F#",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "G#dimb7",
+        "Notes": "G#,B,D,F",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab7sus4",
+        "Notes": "Ab,Db,Eb,Gb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab7b5",
+        "Notes": "Ab,C,D,Gb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab7aug",
+        "Notes": "Ab,C,E,Gb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab9",
+        "Notes": "Ab,C,Eb,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab9sus4",
+        "Notes": "Ab,Db,Eb,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab9b5",
+        "Notes": "Ab,C,D,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab9aug",
+        "Notes": "Ab,C,E,Gb,Bb",
+        "Multiplier": "3"
+    },
+    {
+        "Chords": "Ab13",
+        "Notes": "Ab,C,Eb,Gb,Bb,F",
+        "Multiplier": "3"
+    }
+]
