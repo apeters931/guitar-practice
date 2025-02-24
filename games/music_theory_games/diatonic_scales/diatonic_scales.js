@@ -31,7 +31,7 @@ function gameLoop(gameType) {
     var countDown;
 
     // read JSON data
-    fetch("diatonic_scales.json")
+    fetch("../../../json/diatonic_scales.json")
     .then(response => response.json())
     .then(data => {
         randIndex = Math.floor(Math.random() * data.length);

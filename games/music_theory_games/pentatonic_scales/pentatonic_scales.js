@@ -17,7 +17,7 @@ function gameLoop(gameType) {
     var answerCleaned;
     var correct_answer;
     var correctAnswerCleaned;
-    var title = "What notes are in ";
+    var title = "What pentatonic notes are in ";
     var full_title;
     var correct_response = "Correct!";
     var incorrect_str = "Incorrect: ";
@@ -31,14 +31,14 @@ function gameLoop(gameType) {
     var countDown;
 
     // read JSON data
-    fetch("modes.json")
+    fetch("../../../json/pentatonic_scales.json")
     .then(response => response.json())
     .then(data => {
         randIndex = Math.floor(Math.random() * data.length);
         // get key name from JSON
-        key = data[randIndex].ROOT + ' ' + data[randIndex].MODE;
+        key = data[randIndex].NOTE + ' ' + data[randIndex].TYPE;
         // get notes in key from JSON
-        correct_answer = data[randIndex].NOTES;
+        correct_answer = data[randIndex].SCALE;
         // format string to be consistent for comparing
         correctAnswerCleaned = standardize_string(correct_answer);
         // create title w/ key name and add it to screen

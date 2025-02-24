@@ -1,3 +1,6 @@
+// chords that are wrong:
+// c#m11
+
 // game variables used for score
 var counter = 1;
 var clickCount = 0;
@@ -17,12 +20,14 @@ function gameLoop(gameType) {
     var answerCleaned;
     var correct_answer;
     var correctAnswerCleaned;
-    var title = "What pentatonic notes are in ";
+    var title = "What notes are in ";
     var full_title;
     var correct_response = "Correct!";
     var incorrect_str = "Incorrect: ";
     var incorrect_response;
     var randIndex;
+    var probabilityArray = Array("1","1","1","1","1","1","1","2","2","3") // 70% easy difficulty, 20% medium, 10% hard
+    var difficulty;
     var flag = true;
     var clickedFlag = false;
     let time = 0;
@@ -31,18 +36,28 @@ function gameLoop(gameType) {
     var countDown;
 
     // read JSON data
-    fetch("pentatonic_scales.json")
+    fetch("../../../json/chords.json")
     .then(response => response.json())
     .then(data => {
-        randIndex = Math.floor(Math.random() * data.length);
-        // get key name from JSON
-        key = data[randIndex].NOTE + ' ' + data[randIndex].TYPE;
-        // get notes in key from JSON
-        correct_answer = data[randIndex].SCALE;
+        // loop through until a chord is found that is the correct difficulty
+        while (flag) {
+            // pick random item in probability array to be used as difficulty
+            difficulty = probabilityArray[Math.floor(Math.random()*probabilityArray.length)];
+            // pick a random chord from th data
+            randIndex = Math.floor(Math.random() * data.length);
+            // if the chord is the right difficulty stop looping
+            if (data[randIndex].Multiplier == difficulty) {
+                flag = false
+            }
+        }
+        // get chord name from JSON
+        chord = data[randIndex].Chords;
+        // get notes in chord from JSON
+        correct_answer = data[randIndex].Notes;
         // format string to be consistent for comparing
         correctAnswerCleaned = standardize_string(correct_answer);
-        // create title w/ key name and add it to screen
-        full_title = title + key;
+        // create title w/ chord name and add it to screen
+        full_title = title + chord;
         document.getElementById("main_title").textContent = full_title;
 
         // timer
@@ -118,8 +133,8 @@ function gameLoop(gameType) {
                 document.getElementById("message").style.color = "white";
                 // adds one to the correct answer variable
                 correctAnswer++;
-                // adds 100
-                score = score + 100;
+                // adds 100 x the difficulty multiplier to the score variable
+                score = score + (100 * parseInt(difficulty));
                 // adds an addition 100 in the answer time was less than the median answer time
                 if (pausedTime < medianTime) {
                     score = score + 100;
