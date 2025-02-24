@@ -7,23 +7,24 @@
     var returnArray = [];
     var difficulty;
     var flag = true;
-    var probabilityArray = ["0","0","0","0","0","0","0","0","0","0","0","0","0","1","1","1","1","1","1","1","1","2","2","3"];
+    var probabilityArray = ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","1","1","2","2","3"];
     
     
     fetch("chords2.json")
     .then(response => response.json())
     .then(data => {
         // loop through until a chord is found that is the correct difficulty
-        //while (flag) {
+        while (flag) {
             // pick random item in probability array to be used as difficulty
             difficulty = probabilityArray[Math.floor(Math.random()*probabilityArray.length)];
             // pick a random chord from th data
             randIndex = Math.floor(Math.random() * data.length);
             // if the chord is the right difficulty stop looping
             if (data[randIndex].Multiplier == difficulty) {
-                flag = false
+                flag = false;
+                console.log(difficulty);
             }
-        //}
+        }
         scale = data[randIndex].Notes;
         scaleArray = scale.split(',');
         returnArray.push(scaleArray);
