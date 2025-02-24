@@ -32,7 +32,7 @@ fetch("scales.json")
     var keyType = returnArray[3];
     var keyScaleName = returnArray[2];
     var lowerKey = key.map(key => key.toLowerCase());
-    document.getElementById("main_title").textContent = keyNote + ' ' + keyType + ' ' + keyScaleName;
+    document.getElementById("main_title").textContent = keyNote + keyType + ' ' + keyScaleName;
     console.log(lowerKey);
 
     // MAIN GAME LOGIC

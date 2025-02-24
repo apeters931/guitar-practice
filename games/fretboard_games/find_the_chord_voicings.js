@@ -218,5 +218,5 @@ function isValidChordVoicing(clicked,strings,frets,chord_notes) {
         }
     }
     // if no false yet returned, true
-    return [true, 'Good job!', 'Yes!']
+    return [true, 'Good job!', 'Correct!']
 }

@@ -1,290 +1,290 @@
 [
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "A",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "A,B,C#,E,F#"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "A#/Bb",
-        "TYPE": "MAJOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Bb",
+        "TYPE": "maj",
         "SCALE": "Bb,C,D,F,G"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "B",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "B,C#,D#,F#,G#"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "C",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "C,D,E,G,A"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "C#/Db",
-        "TYPE": "MAJOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Db",
+        "TYPE": "maj",
         "SCALE": "Db,Eb,F,Ab,Bb"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "D",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "D,E,F#,A,B"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "D#/Eb",
-        "TYPE": "MAJOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Eb",
+        "TYPE": "maj",
         "SCALE": "Eb,F,G,Bb,C"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "E",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "E,F#,G#,B,C#"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "F",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "F,G,A,C,D"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "F#/Gb",
-        "TYPE": "MAJOR",
+        "NAME": "Pentatonic",
+        "NOTE": "F#",
+        "TYPE": "maj",
         "SCALE": "F#,G#,A#,C#,D#"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "G",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "G,A,B,D,E"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "G#/Ab",
-        "TYPE": "MAJOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Ab",
+        "TYPE": "maj",
         "SCALE": "Ab,Bb,C,Eb,F"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "A",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "A,C,D,E,G"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "A#/Bb",
-        "TYPE": "MINOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Bb",
+        "TYPE": "m",
         "SCALE": "Bb,Db,Eb,F,Ab"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "B",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "B,D,E,F#,A"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "C",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "C,Eb,F,G,Bb"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "C#/Db",
-        "TYPE": "MINOR",
+        "NAME": "Pentatonic",
+        "NOTE": "C#",
+        "TYPE": "m",
         "SCALE": "C#,E,F#,G#,B"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "D",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "D,F,G,A,C"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "D#/Eb",
-        "TYPE": "MINOR",
+        "NAME": "Pentatonic",
+        "NOTE": "Eb",
+        "TYPE": "m",
         "SCALE": "Eb,Gb,Ab,Bb,C#"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "E",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "E,G,A,B,D"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "F",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "F,Ab,Bb,C,Eb"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "F#/Gb",
-        "TYPE": "MINOR",
+        "NAME": "Pentatonic",
+        "NOTE": "F#",
+        "TYPE": "m",
         "SCALE": "F#,A,B,C#,E"
     },
     {
-        "NAME": "PENTATONIC",
+        "NAME": "Pentatonic",
         "NOTE": "G",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "G,Bb,C,D,F"
     },
     {
-        "NAME": "PENTATONIC",
-        "NOTE": "G#/Ab",
-        "TYPE": "MINOR",
+        "NAME": "Pentatonic",
+        "NOTE": "G#",
+        "TYPE": "m",
         "SCALE": "G#,B,C#,D#,F#"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "A",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "A,B,C#,D,E,F#,G#"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "A#/Bb",
-        "TYPE": "MAJOR",
+        "NAME": "Diatonic",
+        "NOTE": "Bb",
+        "TYPE": "maj",
         "SCALE": "Bb,C,D,Eb,F,G,A"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "B",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "B,C#,D#,E,F#,G#,A#"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "C",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "C,D,E,F,G,A,B"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "C#/Db",
-        "TYPE": "MAJOR",
+        "NAME": "Diatonic",
+        "NOTE": "Db",
+        "TYPE": "maj",
         "SCALE": "Db,Eb,F,Gb,Ab,Bb,C"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "D",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "D,E,F#,G,A,B,C#"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "D#/Eb",
-        "TYPE": "MAJOR",
+        "NAME": "Diatonic",
+        "NOTE": "Eb",
+        "TYPE": "maj",
         "SCALE": "Eb,F,G,Ab,Bb,C,D"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "E",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "E,F#,G#,A,B,C#,D#"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "F",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "F,G,A,Bb,C,D,E"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "F#/Gb",
-        "TYPE": "MAJOR",
+        "NAME": "Diatonic",
+        "NOTE": "F#",
+        "TYPE": "maj",
         "SCALE": "F#,G#,A#,B,C#,D#,F"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "G",
-        "TYPE": "MAJOR",
+        "TYPE": "maj",
         "SCALE": "G,A,B,C,D,E,F#"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "G#/Ab",
-        "TYPE": "MAJOR",
+        "NAME": "Diatonic",
+        "NOTE": "Ab",
+        "TYPE": "maj",
         "SCALE": "Ab,Bb,C,Db,Eb,F,G"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "A",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "A,B,C,D,E,F,G"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "A#/Bb",
-        "TYPE": "MINOR",
+        "NAME": "Diatonic",
+        "NOTE": "Bb",
+        "TYPE": "m",
         "SCALE": "Bb,C,Db,Eb,F,Gb,Ab"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "B",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "B,C#,D,E,F#,G,A"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "C",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "C,D,Eb,F,G,Ab,Bb"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "C#/Db",
-        "TYPE": "MINOR",
+        "NAME": "Diatonic",
+        "NOTE": "C#",
+        "TYPE": "m",
         "SCALE": "C#,D#,E,F#,G#,A,B"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "D",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "D,E,F,G,A,Bb,C"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "D#/Eb",
-        "TYPE": "MINOR",
+        "NAME": "Diatonic",
+        "NOTE": "Eb",
+        "TYPE": "m",
         "SCALE": "Eb,F,Gb,Ab,Bb,B,C#"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "E",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "E,F#,G,A,B,C,D"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "F",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "F,G,Ab,Bb,C,Db,Eb"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "F#/Gb",
-        "TYPE": "MINOR",
+        "NAME": "Diatonic",
+        "NOTE": "F#",
+        "TYPE": "m",
         "SCALE": "F#,G#,A,B,C#,D,E"
     },
     {
-        "NAME": "DIATONIC",
+        "NAME": "Diatonic",
         "NOTE": "G",
-        "TYPE": "MINOR",
+        "TYPE": "m",
         "SCALE": "G,A,Bb,C,D,Eb,F"
     },
     {
-        "NAME": "DIATONIC",
-        "NOTE": "G#/Ab",
-        "TYPE": "MINOR",
+        "NAME": "Diatonic",
+        "NOTE": "G#",
+        "TYPE": "m",
         "SCALE": "G#,A#,B,C#,D#,E,F#"
     }
 ]
