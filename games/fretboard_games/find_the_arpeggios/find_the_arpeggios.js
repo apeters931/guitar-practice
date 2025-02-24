@@ -10,7 +10,7 @@
     var probabilityArray = ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","1","1","2","2","3"];
     
     
-    fetch("chords2.json")
+    fetch("../../../json/chords2.json")
     .then(response => response.json())
     .then(data => {
         // loop through until a chord is found that is the correct difficulty
@@ -49,14 +49,14 @@
 
         // MAIN GAME LOGIC
         // read JSON fretboard data
-        fetch("fretboard.json")
+        fetch("../../../json/fretboard.json")
         .then(response => response.json())
         .then(data => {
             // save JSON data as fretboard
             let fretboard = data;
             // draw guitar neck on load
             const img = new Image();
-            img.src = "images/guitar_neck_vertical.png";
+            img.src = "../../../images/guitar_neck_vertical.png";
             img.addEventListener("load", function(){
                 ctx.drawImage(img, 0, 0, 110, 650)
             })

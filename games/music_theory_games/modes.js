@@ -1,9 +1,3 @@
-// to do:
-
-// for developing:
-// python3 -m http.server
-// http://localhost:8000/guitar-practice/web_game/games/music_theory_games/chords.html
-
 // game variables used for score
 var counter = 1;
 var clickCount = 0;

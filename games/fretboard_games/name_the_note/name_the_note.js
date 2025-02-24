@@ -175,7 +175,7 @@ function gameLoop(gameType) {
         strings = ['e-low','a','d','g','b','e-high'];
     }
 
-    fetch("fretboard.json")
+    fetch("../../../json/fretboard.json")
     .then(response => response.json())
     .then(data => {
         var flag = true;
