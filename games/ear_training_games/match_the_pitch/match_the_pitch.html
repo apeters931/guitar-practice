@@ -5,13 +5,17 @@
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <title>crossroads chords</title>
         <link rel="icon" type="image/jpg" href="../../../images/logo.jpg">
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../../fretboard_games/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <canvas id="myCanvas" width="110" height="300"></canvas>
-        <div class="answer-submit">
-            <h1 id="main_title"></h1>
+        <div class="game-box">
+            <canvas id="myCanvas" width="110" height="300"></canvas>
+            <div class="answer-box">
+                <button id="play-button"><i class="fa fa-play"></i></button>
+                <p id="results"></p>
+            </div>
         </div>
         <script src="play_note.js" type="module"></script>
     </body>

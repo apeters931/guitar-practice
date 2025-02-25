@@ -5,12 +5,18 @@ const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
 canvas.width = 110;
 canvas.height = 650;
+var randIndex;
+let final_xy;
 
 // MAIN GAME LOGIC
 // read JSON fretboard data
-fetch("../../../json/fretboard_mp3.json")
+fetch("../../../json/fretboard.json")
 .then(response => response.json())
 .then(data => {
+    // get random index in JSON
+    randIndex = Math.floor(Math.random() * data.length);
+    var note = new Audio(data[randIndex].Sound)
+    console.log(data[randIndex]);
     // save JSON data as fretboard
     let fretboard = data;
     // draw guitar neck on load
@@ -25,7 +31,7 @@ fetch("../../../json/fretboard_mp3.json")
         x = event.offsetX;
         y = event.offsetY;
         // gets cordinates for closest note
-        let final_xy = findClosestNote(x, y, fretboard)
+        final_xy = findClosestNote(x, y, fretboard)
         // draws dot using the closest note cordinates
         var sound = new Audio(final_xy[3]); 
         console.log(final_xy[3]);
@@ -37,11 +43,24 @@ fetch("../../../json/fretboard_mp3.json")
         ctx.stroke;
         sound.play();
     });
+    // play note when play button is clicked
+    document.getElementById("play-button").onclick = function() {
+        console.log('play');
+        note.play();
+    }
     // clear dots when the backspacen key is pressed
     document.addEventListener("keydown", function(event){
         if (event.key == 'Backspace') {
             ctx.clearRect(0, 0, 110, 650);
             ctx.drawImage(img, 0, 0, 110, 650)
+        }
+        if (event.key == 'Enter') {
+            if(final_xy[3] == data[randIndex].Sound) {
+                document.getElementById("results").textContent = "Correct!";
+            }
+            else {
+                document.getElementById("results").textContent = "Incorrect; Try Again";
+            }
         }
     });
 });
